@@ -4,3 +4,22 @@
 .subnav:hover .subnav-list{
     display: block;
 }
+.price::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background-color: #ccc;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s;
+    
+}
+
+.price:hover::after{
+    width: 100%;
+    background-color: #000;
+}
+.open{
+    display: block;
+}
