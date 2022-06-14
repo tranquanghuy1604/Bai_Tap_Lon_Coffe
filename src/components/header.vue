@@ -40,7 +40,9 @@
       >
         <a href="" class="">
           <span class="hidden lg:inline-block mr-[8px]">0đ</span>
-          <i class="text-[25px] fa-solid fa-basket-shopping"></i>
+          <a href="/Giohang">
+            <i class="text-[25px] fa-solid fa-basket-shopping"></i>
+          </a>
         </a>
       </div>
     </div>
