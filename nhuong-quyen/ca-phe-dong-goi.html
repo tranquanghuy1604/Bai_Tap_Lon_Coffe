@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Cà Phê Đóng Gói - Trung Nguyên E-Coffee</title>
     <link rel="icon" href="./img/icon-trung-nguyen.png" type="image/x-icon">
+    <style>
+        .product-box:hover .cart-icon{
+            visibility: visible;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="h-32 bg-red-400">abc</div>
@@ -43,15 +57,24 @@
             <div v-for="product in products"
                 :key="product.id"
                 class="product-box px-2 pb-4 border border-b-2 cursor-pointer">
-                <div class="product-img">
-                    <img :src="product.image">
-                </div>
-                <div class="px-2.5 pb-5 pt-2.5 text-center">
-                    <div class="">
-                        <p class="hover:text-yellow-200">{{product.product_name}}</p>
+
+                <div class="product-box hover:target:cart-icon:visible">
+                    <div class="relative product-img">
+                        <img :src="product.image" class="h-64">
+
+                        <button class="absolute cart-icon text-2xl bottom-0 invisible " style="animation: fadeIn 1s">
+                            <span>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </button>
                     </div>
-                    <div class="">
-                        <span class="price font-semibold">{{product.intro_price}}</span>
+                    <div class="px-2.5 pb-5 pt-2.5 text-center">
+                        <div class="">
+                            <p class="hover:text-yellow-200">{{product.product_name}}</p>
+                        </div>
+                        <div class="">
+                            <span class="price font-semibold">{{product.intro_price}}</span>
+                        </div>
                     </div>
                 </div>
             </div>

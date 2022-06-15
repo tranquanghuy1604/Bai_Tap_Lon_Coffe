@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./build/taiwind.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.4/swiper-bundle.min.js" integrity="sha512-Hvn3pvXhhG39kmZ8ue3K8hw8obT4rfLXHE5n+IWNCMkR6oV3cfkQNUQqVvX3fNJO/JtFeo/MfLmqp5bqAT+8qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./build/taiwind.css">
     <title>Nhượng Quyền - Trung Nguyên E-Coffee</title>
     <link rel="icon" href="./img/icon-trung-nguyen.png" type="image/x-icon">
     <style>
@@ -91,7 +92,7 @@
 </head>
 <body>
 
-    <div class="h-32 bg-red-400"></div>
+    <div class="h-32 bg-regal-blue"></div>
 
     <!-- Loi the mo hinh trung nguyen E-coffee -->
     <section class="py-8">
@@ -103,7 +104,7 @@
                 </span>
             </h3>
 
-            <div class="flex">
+            <div class="mobile:hidden sm:hidden md:flex">
                 <div class="w-1/3 px-3.5 pb-8">
                     <img src="./img/loi-the/loi-the-1-768x960.jpg" alt="Thương hiệu số 1">
                 </div>
@@ -114,7 +115,7 @@
                     <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-03-768x960.jpg" alt="Kết nối cộng đồng thành công">
                 </div>
             </div>
-            <div class="flex">
+            <div class="mobile:hidden sm:hidden md:flex">
                 <div class="w-1/4 px-3.5 pb-8">
                     <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-04-768x960.jpg" alt="Nguyên liệu số 1">
                 </div>
@@ -125,6 +126,31 @@
                     <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-06-768x960.jpg" alt="Trang thiết bị hiện đại">
                 </div>
                 <div class="w-1/4 px-3.5 pb-8">
+                    <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-07-768x960.jpg" alt="Truyền thông đa kênh">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 col-span-4 md:hidden">
+                
+                <div class="px-3.5 pb-8">
+                    <img src="./img/loi-the/loi-the-1-768x960.jpg" alt="Thương hiệu số 1">
+                </div>
+                <div class="px-3.5 pb-8">
+                    <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-02-768x960.jpg" alt="Hiệu quả đầu tư vượt trội">
+                </div>
+                <div class="px-3.5 pb-8">
+                    <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-03-768x960.jpg" alt="Kết nối cộng đồng thành công">
+                </div>
+                <div class="px-3.5 pb-8">
+                    <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-04-768x960.jpg" alt="Nguyên liệu số 1">
+                </div>
+                <div class="px-3.5 pb-8">
+                    <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-05-768x960.jpg" alt="Vận hành chuyên nghiệp">
+                </div>
+                <div class="px-3.5 pb-8">
+                    <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-06-768x960.jpg" alt="Trang thiết bị hiện đại">
+                </div>
+                <div class="px-3.5 pb-8">
                     <img src="./img/loi-the/LoiTheMoHinhNhuongQuyen-07-768x960.jpg" alt="Truyền thông đa kênh">
                 </div>
             </div>
@@ -158,8 +184,8 @@
                 </li>
             </ul>
             <div id="tab_goi-Thinh-Vuong" class="nhuongQuyen-tab tab-hoptac active">
-                <div class="flex">
-                    <div class="w-1/2 text-center">
+                <div class="md:flex sm:block">
+                    <div class="md:w-1/2 sm:w-full text-center">
                         <p class="px-3.5 pb-8">
                             <span class="text-3xl font-bold mb-2" >Giá trị gói</span> <br>
                             <span class="text-2xl font-bold mb-2" style="line-height: 3rem;">Từ 175 triệu</span> <br>
@@ -167,7 +193,7 @@
                         </p>
                     </div>
                     
-                    <div class="w-1/2 text-center">
+                    <div class="md:w-1/2 sm:w-full text-center">
                         <p class="px-3.5 pb-8">
                             <span class="text-3xl font-bold mb-2" style="line-height: 3.25rem;">Đối Tượng Tham Gia</span> <br>
                             <span class="text-lg">Dành cho đối tượng Khách hàng có nhu cầu cung ứng toàn bộ gói đầu tư mở quán Trung Nguyên E-Coffee.</span>
@@ -175,8 +201,8 @@
                     </div>
                 </div>
 
-                <div class="flex">
-                    <div class="w-1/2">
+                <div class="md:flex sm:block">
+                    <div class="md:w-1/2 sm:w-full sm:px-4">
                         <table class="table-auto text-left">
                             <tbody>
                                 <tr class="leading-8 border-b">
@@ -230,15 +256,15 @@
                             </tbody>
                           </table>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-1/2 sm:w-full sm:pt-8">
                         <img src="./img/Gói-Thịnh-Vượng-893x800.jpg" alt="Gói Thịnh Vượng" class="px-3.5 pb-8">
                     </div>
                 </div>
             </div>
             
             <div id="tab_goi-Khoi-Nghiep" class="nhuongQuyen-tab tab-hoptac">
-                <div class="flex">
-                    <div class="w-1/2 text-center">
+                <div class="md:flex sm:block">
+                    <div class="md:w-1/2 sm:w-full text-center">
                         <p class="px-3.5 pb-8">
                             <span class="text-3xl font-bold mb-2" >Giá trị gói</span> <br>
                             <span class="text-2xl font-bold mb-2" style="line-height: 3rem;">Từ 120 triệu</span> <br>
@@ -246,7 +272,7 @@
                         </p>
                     </div>
                     
-                    <div class="w-1/2 text-center">
+                    <div class="md:w-1/2 sm:w-full text-center">
                         <p class="px-3.5 pb-8">
                             <span class="text-3xl font-bold mb-2" style="line-height: 3.25rem;">Đối Tượng Tham Gia</span> <br>
                             <span class="text-lg">Dành cho Khách hàng có nhu cầu hợp tác mở quán Trung Nguyên E-Coffee mới (yêu cầu cơ bản/ diện tích nhỏ)</span>
@@ -254,8 +280,8 @@
                     </div>
                 </div>
 
-                <div class="flex">
-                    <div class="w-1/2">
+                <div class="md:flex sm:block">
+                    <div class="md:w-1/2 sm:w-full sm:px-4">
                         <table class="table-auto text-left">
                             <tbody>
                                 <tr class="leading-8 border-b">
@@ -305,7 +331,7 @@
                             </tbody>
                           </table>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-1/2 sm:w-full sm:pt-8">
                         <img src="./img/C2-1-đường-Châu-Văn-Liêm-KDC-Hùng-Vương-2-P.Phú-Thủy-Tp.Phan-Thiết-BT.jpg" alt="Gói Thịnh Vượng" class="px-3.5 pb-8">
                     </div>
                 </div>
@@ -313,8 +339,8 @@
             </div>
 
             <div id="tab_goi-Ket-Noi" class="nhuongQuyen-tab tab-hoptac">
-                <div class="flex">
-                    <div class="w-1/2 text-center">
+                <div class="md:flex sm:block">
+                    <div class="md:w-1/2 sm:w-full text-center">
                         <p class="px-3.5 pb-8">
                             <span class="text-3xl font-bold mb-2" >Giá trị gói</span> <br>
                             <span class="text-2xl font-bold mb-2" style="line-height: 3rem;">Từ 65 triệu</span> <br>
@@ -322,7 +348,7 @@
                         </p>
                     </div>
                     
-                    <div class="w-1/2 text-center">
+                    <div class="md:w-1/2 sm:w-full text-center">
                         <p class="px-3.5 pb-8">
                             <span class="text-3xl font-bold mb-2" style="line-height: 3.25rem;">Đối Tượng Tham Gia</span> <br>
                             <span class="text-lg">Dành cho Khách hàng tối ưu diện tích đang kinh doanh hoặc chuyển đổi hoạt động kinh doanh sang thương hiệu Trung Nguyên E-Coffee.</span>
@@ -330,8 +356,8 @@
                     </div>
                 </div>
 
-                <div class="flex">
-                    <div class="w-1/2">
+                <div class="md:flex sm:block">
+                    <div class="md:w-1/2 sm:w-full sm:px-4">
                         <table class="table-auto text-left">
                             <tbody>
                                 <tr class="leading-8 border-b">
@@ -377,7 +403,7 @@
                             </tbody>
                           </table>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-1/2 sm:w-full sm:pt-8">
                         <img src="./img/1ec6d7c9fb45041b5d54.jpg" alt="Gói Thịnh Vượng" class="px-3.5 pb-8">
                     </div>
                 </div>
@@ -641,28 +667,28 @@
                 </li>
             </ul>
             <div id="tab_gOi-Thinh-Vuong" class="nhuongQuyen-tab tab-mohinh active">
-                <div class="flex ">
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/thinh-vuong/Số-38C-Hùng-Vương-Long-Xuyên-An-Giang-1.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                <div class="grid md:grid-cols-3 sm:grid-cols-1">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/thinh-vuong/Số-38C-Hùng-Vương-Long-Xuyên-An-Giang-1.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
                             <p class="text-sm">38C Hùng Vương, Long Xuyên, An Giang</p>
                         </div>
                     </div>
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/thinh-vuong/Chung-Cư-Remax-Số-116-117-118-Bãi-Sậy-Phường-1-Quận-6-Thành-phố-Hồ-Chí-Minh-1536x1024.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/thinh-vuong/Chung-Cư-Remax-Số-116-117-118-Bãi-Sậy-Phường-1-Quận-6-Thành-phố-Hồ-Chí-Minh-1536x1024.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
                             <p class="text-sm">38C Hùng Vương, Long Xuyên, An Giang</p>
                         </div>
                     </div>
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/thinh-vuong/C2-1-đường-Châu-Văn-Liêm-P2-Phú-Thuỷ-TP-Phan-Thiết-Bình-Thuận-1536x1152.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/thinh-vuong/C2-1-đường-Châu-Văn-Liêm-P2-Phú-Thuỷ-TP-Phan-Thiết-Bình-Thuận-1536x1152.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
@@ -672,28 +698,28 @@
                 </div>
             </div>
             <div id="tab_gOi-Khoi-Nghiep" class="nhuongQuyen-tab tab-mohinh">
-                <div class="flex ">
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/khoi-nghiep/114A6-Trần-Huy-Liệu-Giảng-Võ-Ba-Đình-Hà-Nội-1.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                <div class="grid md:grid-cols-3 sm:grid-cols-1">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/khoi-nghiep/114A6-Trần-Huy-Liệu-Giảng-Võ-Ba-Đình-Hà-Nội-1.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
                             <p class="text-sm">38C Hùng Vương, Long Xuyên, An Giang</p>
                         </div>
                     </div>
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/khoi-nghiep/227-Đồng-Đen-Phường-11-Quận-Tân-Bình-TP.-Hồ-Chí-Minh-1536x1024.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/khoi-nghiep/227-Đồng-Đen-Phường-11-Quận-Tân-Bình-TP.-Hồ-Chí-Minh-1536x1024.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
                             <p class="text-sm">38C Hùng Vương, Long Xuyên, An Giang</p>
                         </div>
                     </div>
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/khoi-nghiep/23-Lê-Thái-Tổ-Võ-Cường-TP-Bắc-Ninh-Bắc-Ninh-1536x1152.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/khoi-nghiep/23-Lê-Thái-Tổ-Võ-Cường-TP-Bắc-Ninh-Bắc-Ninh-1536x1152.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
@@ -703,28 +729,28 @@
                 </div>
             </div>
             <div id="tab_gOi-Ket-Noi" class="nhuongQuyen-tab tab-mohinh">
-                <div class="flex ">
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/ket-noi/40-Mai-Anh-Tuấn-Đống-Đa-Hà-Nội-1536x1152.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                <div class="grid md:grid-cols-3 sm:grid-cols-1">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/ket-noi/40-Mai-Anh-Tuấn-Đống-Đa-Hà-Nội-1536x1152.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
                             <p class="text-sm">38C Hùng Vương, Long Xuyên, An Giang</p>
                         </div>
                     </div>
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/ket-noi/71.1.5-Nguyễn-Văn-Thương-Phường-25-Quận-Bình-Thạnh-TP.-Hồ-Chí-Minh.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/ket-noi/71.1.5-Nguyễn-Văn-Thương-Phường-25-Quận-Bình-Thạnh-TP.-Hồ-Chí-Minh.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
                             <p class="text-sm">38C Hùng Vương, Long Xuyên, An Giang</p>
                         </div>
                     </div>
-                    <div class="w-1/3 pb-8 px-4">
-                        <div class="h-72">
-                            <img src="./img/mo-hinh/ket-noi/Sảnh-B-Tòa-nhà-NewSkyline-Nguyễn-Khuyến-Văn-Quán-Hà-Đông-Hà-Nội.jpg" alt="Trung Nguyen Coffee" class="h-full w-auto">
+                    <div class="pb-8 px-4">
+                        <div class="md:h-72 sm:h-96">
+                            <img src="./img/mo-hinh/ket-noi/Sảnh-B-Tòa-nhà-NewSkyline-Nguyễn-Khuyến-Văn-Quán-Hà-Đông-Hà-Nội.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
@@ -745,7 +771,7 @@
                     Hình ảnh đào tạo
                 </span>
             </h2>
-
+<!-- 
             <div class="flex">
                 <div class="w-1/3 pb-8 px-4">
                     <img src="./img/dao-tao/76654364_3184830428198889_9350401501429760_o.jpg" alt="">
@@ -767,12 +793,47 @@
                 <div class="w-1/3 pb-8 px-4">
                     <img src="./img/dao-tao/67f5ac6d15b2eaecb3a3.jpg" alt="">
                 </div>
-            </div>
+            </div> 
+        -->
+            <div class="grid sm:grid-cols-1 md:grid-cols-3">
+                <div class="pb-8 px-4">
+                    <img src="./img/dao-tao/76654364_3184830428198889_9350401501429760_o.jpg" alt="">
+                </div>
+                <div class="pb-8 px-4">
+                    <img src="./img/dao-tao/9aefa3241afbe5a5bcea.jpg" alt="">
+                </div>
+                <div class="pb-8 px-4">
+                    <img src="./img/dao-tao/3438862b3ff4c0aa99e5.jpg" alt="">
+                </div>
+                <div class="pb-8 px-4">
+                    <img src="./img/dao-tao/9aefa3241afbe5a5bcea.jpg" alt="">
+                </div>
+                <div class="pb-8 px-4">
+                    <img src="./img/dao-tao/d084ddb663699c37c578.jpg" alt="">
+                </div>
+                <div class="pb-8 px-4">
+                    <img src="./img/dao-tao/67f5ac6d15b2eaecb3a3.jpg" alt="">
+                </div>
+            </div> 
     </section>
     <div class="h-56 bg-red-400"></div>
 </body>
 
 <script>
-    
+        function openTabGoi(evt, tab, tablink, tabs) {
+        var tablink, tabcontent, i;
+        tablink = document.getElementsByClassName(tablink);
+        for (i = 0; i < tablink.length; i++) {
+            tablink[i].className = tablink[i].className.replace(' active', "");
+        }
+
+        tabcontent = document.getElementsByClassName(tabs);
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].className = tabcontent[i].className.replace(' active', "");
+        }
+
+        document.getElementById(tab).className += ' active';
+        evt.currentTarget.className += ' active';
+    }
 </script>
 </html>
