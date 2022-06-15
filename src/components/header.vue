@@ -134,7 +134,7 @@
           </li>
           <li class="item px-[10px] border-r-[1px] border-[#888888]">
             <a
-              href=""
+              href="/nhuongquyen"
               class="hover:text-black text-white text-[14px] xl:text-[16px]"
               >Nhượng quyền</a
             >
