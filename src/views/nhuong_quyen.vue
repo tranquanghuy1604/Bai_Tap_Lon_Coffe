@@ -1,6 +1,6 @@
 <template>
     <Header />
-    <Banner />
+    <Slider />
     <Loithe />
     <GoiHopTac />
     <QuyTrinhHopTac />
@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import Banner from "../components/recruit/banner.vue";
 import Header from "../components/header.vue";
+import Slider from "../components/slider.vue";
 import Loithe from "../components/nhuong_quyen/loi_the.vue";
 import GoiHopTac from "../components/nhuong_quyen/goi_hop_tac.vue";
 import QuyTrinhHopTac from '../components/nhuong_quyen/quy_trinh_hop_tac.vue';
@@ -25,9 +25,9 @@ import Footer from "../components/footer.vue";
 
 export default {
     name: "nhuong-quyen",
-    components: {        
-        Banner,
+    components: {  
         Header,
+        Slider,
         Loithe,
         GoiHopTac,
         QuyTrinhHopTac,
