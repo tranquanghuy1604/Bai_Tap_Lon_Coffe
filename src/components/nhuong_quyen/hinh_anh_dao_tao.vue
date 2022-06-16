@@ -1,6 +1,6 @@
 <template>    
     <section class="py-10">        
-        <div class="container  mx-auto text-center">
+        <div class="max-w-[1080px] mx-auto text-center">
             <h2 class="uppercase font-bold text-2xl mb-10">
                 <span class="py-1.5 px-4 border-2" style="border-color: rgba(0,0,0,0.1);">
                     <i class="fa-solid fa-play opacity-60"></i>

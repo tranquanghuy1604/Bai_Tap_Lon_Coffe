@@ -1,6 +1,6 @@
 <template>        
     <section style="background-color: rgb(52, 52, 52);" class="py-10">
-        <div class="container mx-auto text-center text-white">
+        <div class="max-w-[1080px] mx-auto text-center text-white">
             <h2 class="uppercase font-bold text-2xl mb-10">
                 <span class="py-1.5 px-4 border-2" style="border-color: rgba(0,0,0,0.1);">
                     <i class="fa-solid fa-clock opacity-60"></i>
@@ -18,16 +18,16 @@
                 <div class="w-2/3 py-8 px-4">
                     <form action="" >
                         <p >
-                            <input type="text" name="your-name" placeholder="Họ Tên *" class="w-full">
+                            <input type="text" name="your-name" placeholder="Họ Tên *" class="w-full mb-4">
                         </p>
                         <p>
-                            <input type="tel" placeholder="Điện thoại *">
+                            <input type="tel" placeholder="Điện thoại *" class="mb-4">
                         </p>
                         <p>
-                            <input type="email" name="your-email" placeholder="Email *" class="w-full">
+                            <input type="email" name="your-email" placeholder="Email *" class="w-full mb-4">
                         </p>
                         <p>
-                            <select name="" id="" class="w-full">
+                            <select name="" id="" class="w-full mb-4">
                                 <option value>-- Chọn khu vực --</option>
                                 <option value="Nước Ngoài">Nước Ngoài</option>
                                 <option value="Hà Nội">Hà Nội</option>
@@ -96,10 +96,10 @@
                             </select>
                         </p>
                         <p>
-                            <textarea name="textarea-nhuongquyen" id="" cols="40" rows="10" placeholder="Ghi chú" class="w-full"></textarea>
+                            <textarea name="textarea-nhuongquyen" id="" cols="40" rows="10" placeholder="Ghi chú" class="w-full mb-4"></textarea>
                         </p>    
                         <p>
-                            <input type="submit" value="Đăng ký" class="text-lg font-semibold rounded-2xl px-5 leading-10">
+                            <input type="submit" value="Đăng ký" class="bg-gray-100 hover:bg-gray-300 cursor-pointer text-lg font-semibold rounded-2xl px-5 leading-10">
                             <span class="spinner"></span>
                         </p>
                     </form>
