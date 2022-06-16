@@ -36,11 +36,13 @@
       <div class="grid grid-cols-3 px-[5%] lg:px-0 gap-x-[2%] text-center">
         <div class="col-span-3 shadow-sm lg:col-span-1">
           <a href="" class="">
-            <img
-              src="src/assets/img/hinh1.jpg"
-              alt=""
-              class="w-full lg:h-[194.39px]"
-            />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh1.jpg"
+                alt=""
+                class="w-full lg:h-[194.39px] hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               CHÚC MỪNG SINH NHẬT BẠN – TRUNG NGUYÊN E-COFFEE ƯU ĐÃI 30%
             </h2>
@@ -53,7 +55,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img src="src/assets/img/hinh2.jpg" alt="" class="w-full" />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh2.jpg"
+                alt=""
+                class="w-full hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               CHÀO THÁNG 3 TƯƠI MỚI VỚI BỘ BA SỮA CHUA TRÁI CÂY TẠI TRUNG NGUYÊN
               E-COFFEE
@@ -67,7 +75,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img src="src/assets/img/hinh3.jpg" alt="" class="w-full" />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh3.jpg"
+                alt=""
+                class="w-full hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               THÊM BẠN THÊM VUI – NHẬN NGAY ƯU ĐÃI MUA 03 TẶNG 01​
             </h2>
@@ -94,7 +108,13 @@
       <div class="grid grid-cols-3 px-[5%] lg:px-0 gap-x-[2%] text-center">
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img src="src/assets/img/hinh4.jpg" alt="" class="w-full" />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh4.jpg"
+                alt=""
+                class="w-full hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               CHỈ 65 TRIỆU ĐỒNG HỢP TÁC CÙNG THƯƠNG HIỆU TRUNG NGUYÊN
             </h2>
@@ -107,7 +127,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img src="src/assets/img/hinh5.jpg" alt="" class="w-full" />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh5.jpg"
+                alt=""
+                class="w-full hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               CÙNG HIỆN THỰC HOÁ KHÁT VỌNG KHỞI NGHIỆP KINH DOANH VỚI NGÀNH CÀ
               PHÊ
@@ -121,11 +147,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img
-              src="src/assets/img/hinh6.jpg"
-              alt=""
-              class="w-full lg:h-[194.39px]"
-            />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh6.jpg"
+                alt=""
+                class="w-full lg:h-[194.39px] hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               KHỞI NGHIỆP THÀNH CÔNG – GIÀU CÓ BỀN VỮNG CÙNG TRUNG NGUYÊN
               E-COFFEE
@@ -152,11 +180,13 @@
       <div class="grid grid-cols-3 px-[5%] lg:px-0 gap-x-[2%] text-center">
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img
-              src="src/assets/img/hinh7.jpg"
-              alt=""
-              class="w-full lg:h-[276.48px]"
-            />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh7.jpg"
+                alt=""
+                class="w-full lg:h-[276.48px] hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               Cà Phê Chai Hạt Mộc Trung Nguyên E-Coffee
             </h2>
@@ -169,7 +199,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img src="src/assets/img/hinh8.jpg" alt="" class="w-full" />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh8.jpg "
+                alt=""
+                class="w-full hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               Sẻ Chia Năng Lượng Ngọt Ngào Với Pudding Legend Cà Phê Sữa Đá
             </h2>
@@ -182,7 +218,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img src="src/assets/img/hinh9.jpg" alt="" class="w-full" />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh9.jpg "
+                alt=""
+                class="w-full hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               Nạp Năng Lượng Sáng Tạo, Tươi Trẻ Với Cà Phê Trung Nguyên Legend
               Passiona Khổ Qua
@@ -209,7 +251,13 @@
       <div class="grid grid-cols-3 px-[5%] lg:px-0 gap-x-[2%] text-center mb-8">
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img src="src/assets/img/hinh10.png" alt="" class="w-full" />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh10.png "
+                alt=""
+                class="w-full hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               MV Hướng Dương – Wowy x Trung Nguyên Legend!
             </h2>
@@ -222,11 +270,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img
-              src="src/assets/img/hinh11.jpg"
-              alt=""
-              class="w-full lg:h-[196.36px]"
-            />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh11.jpg"
+                alt=""
+                class="w-full lg:h-[196.36px] hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               Kỷ Niệm 1 Năm Ra Đời Trung Nguyên E-Coffee
             </h2>
@@ -239,11 +289,13 @@
         </div>
         <div class="col-span-3 shadow-sm mt-[12%] lg:mt-0 lg:col-span-1">
           <a href="">
-            <img
-              src="src/assets/img/hinh12.jpg"
-              alt=""
-              class="w-full lg:h-[196.36px]"
-            />
+            <div class="overflow-hidden">
+              <img
+                src="src/assets/img/hinh12.jpg "
+                alt=""
+                class="w-full lg:h-[196.36px] hover:scale-[1.2] ease-in duration-300"
+              />
+            </div>
             <h2 class="font-bold mt-[2%]">
               Trung Nguyên E-Coffee – Sự Lựa Chọn Hợp Tác Số 1 Của Hàng Ngàn Đối
               Tác Trên Toàn Quốc
