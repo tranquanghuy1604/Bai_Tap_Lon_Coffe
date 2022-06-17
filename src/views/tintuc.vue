@@ -28,7 +28,9 @@
       <!-- Title -->
       <div class="justify-center box-content font-bold mt-10">
         <h2 class="pl-[5%] lg:pl-0 text-left text-lg">TIN KHUYẾN MÃI</h2>
-        <h3 class="pr-[5%] lg:pr-0 text-right">Xem tất cả ></h3>
+        <a href="">
+          <h3 class="pr-[5%] lg:pr-0 text-right">Xem tất cả ></h3>
+        </a>
         <div class="bg-black w-full h-px mb-10"></div>
       </div>
 

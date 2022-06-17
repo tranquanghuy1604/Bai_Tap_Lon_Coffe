@@ -1,7 +1,7 @@
 <template>
   <div class="menuMobile fixed top-0 right-0 left-0 bottom-0 z-[100] flex open">
     <div class="w-[280px] bg-white left-0 h-[100vh] z-[999] animate-move-out">
-      <div class="flex w-[20px] bg-[#ecececec] shadow-md mt-[50px] ml-[12px]">
+      <div class="flex w-[20px] bg-[#ecececec] shadow-md mt-[50px] ml-[26px]">
         <input
           class="flex-1 outline-none px-[3px] border-[1px] border-[#99999]"
           type="text"
@@ -44,7 +44,7 @@
         </li>
         <li class="item py-[14px] border-t-[1px] border-[#99999]">
           <a
-            href=""
+            href="/tintuc"
             class="hover:text-black text-[#888] text-[14px] xl:text-[16px] ml-[12px]"
             >Tin tức</a
           >
@@ -58,7 +58,7 @@
         </li>
         <li class="item py-[14px] border-t-[1px] border-[#99999]">
           <a
-            href=""
+            href="/recruit"
             class="hover:text-black text-[#888] text-[14px] xl:text-[16px] ml-[12px]"
             >Tuyển dụng</a
           >

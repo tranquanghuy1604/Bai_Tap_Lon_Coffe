@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import "../font/fontawesome-free-6.1.1-web/css/all.min.css";
 import "../theme/style.css";
-import modal from "../component/modal.vue";
+
 defineProps({
   msg: String,
 });

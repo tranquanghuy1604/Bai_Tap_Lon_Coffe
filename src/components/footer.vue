@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg-[#2b2b2b]">
-      <div class="max-w-[1080px] mx-auto h-[1170px] lg:h-[450px]">
+      <div class="max-w-[1080px] mx-auto h-[1170px] sm:h-[1050px] lg:h-[450px]">
         <div class="grid grid-cols-4 text-white gap-x-[27px] py-[40px]">
           <div class="lg:col-span-1 col-span-4 px-[12px] lg:px-0">
             <h3>CÔNG TY CỔ PHẦN TRUNG NGUYÊN FRANCHISING</h3>
@@ -108,12 +108,13 @@
                   Trung Nguyên E-coffee
                 </p>
               </a>
-              <button
+              <a
+                href="https://www.facebook.com/dung.tan.050602"
                 class="absolute top-[100px] p-[6px] bg-[#ccc] ml-[10px] rounded-[3px] text-black"
               >
                 <i class="text-blue-500 fa-brands fa-facebook"></i>
                 Thích trang
-              </button>
+              </a>
             </div>
           </div>
         </div>

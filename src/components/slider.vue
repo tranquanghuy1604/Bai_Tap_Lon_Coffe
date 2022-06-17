@@ -8,7 +8,7 @@
     }"
     :navigation="true"
     :modules="modules"
-    class="mySwiper lg:mt-[45px]"
+    class="mySwiper lg:mt-[45px] cursor-grab"
   >
     <swiper-slide
       ><img

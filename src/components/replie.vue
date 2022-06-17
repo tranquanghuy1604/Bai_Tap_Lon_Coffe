@@ -8,7 +8,7 @@
         </h1>
         <b class="h-[1px] bg-[#ccc] w-[15px] lg:min-w-[295px]"></b>
       </div>
-      <swiper class="mySwiper lg:h-auto h-[380px]">
+      <swiper class="mySwiper lg:h-auto h-[380px] cursor-grabbing">
         <swiper-slide>
           <div class="flex mt-[40px] snap-x px-[12px] lg-px-0">
             <img
@@ -18,36 +18,11 @@
             />
             <div class="ml-[30px]">
               <div class="flex mb-[10px]">
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
               </div>
               <em class="text-[13px] lg:text-[18px]"
                 >“Mô hình Trung Nguyên E-Coffee như “một làn gió mới”, tôi rất
@@ -73,36 +48,11 @@
             />
             <div class="ml-[30px]">
               <div class="flex mb-[10px]">
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
               </div>
               <em class="text-[13px] lg:text-[18px]"
                 >“Lúc đầu vừa chập chững bước vào kinh doanh cà phê mình cũng
@@ -130,36 +80,11 @@
             />
             <div class="ml-[30px]">
               <div class="flex mb-[10px]">
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
-                <img
-                  width="20"
-                  height="20"
-                  src="https://cdn-icons.flaticon.com/png/512/2893/premium/2893811.png?token=exp=1653874413~hmac=70e60aa88a1ef295095c00687d517495"
-                  alt=""
-                />
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
               </div>
               <em class="text-[13px] lg:text-[18px]"
                 >“Cà phê Trung Nguyên nổi tiếng từ lâu nên tôi rất tin tưởng khi
