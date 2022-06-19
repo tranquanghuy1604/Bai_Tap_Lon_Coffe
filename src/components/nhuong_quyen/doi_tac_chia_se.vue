@@ -2,8 +2,8 @@
     
     <section class="max-w-[1080px] mx-auto">
         <div class="max-w-[1080px] mx-auto text-center">
-            <h2 class="uppercase font-bold text-2xl mb-10">
-                <span class="py-1.5 px-4 border-2" style="border-color: rgba(0,0,0,0.1);">
+            <h2 class="uppercase font-bold text-2xl mb-10 border-2 inline-block" style="border-color: rgba(0,0,0,0.1);">
+                <span class="py-1.5 px-4">
                     <i class="fa-solid fa-user opacity-60"></i>
                     Góc chia sẻ từ đối tác
                 </span>
@@ -18,6 +18,10 @@
                             clickable: true,    
                         }"
                         :breakpoints="{
+                            '320': {
+                                slidesPerView: 1,
+                                spaceBetween: 10,
+                            },
                             '640': {
                                 slidesPerView: 1,
                                 spaceBetween: 10,

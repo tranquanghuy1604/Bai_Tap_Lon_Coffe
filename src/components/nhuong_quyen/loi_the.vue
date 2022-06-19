@@ -1,8 +1,8 @@
 <template>
     <section class="py-8">
         <div class="max-w-[1080px] mx-auto text-center">
-            <h3 class="uppercase font-bold text-xl mb-10">
-                <span class="py-1.5 px-4 border-2" style="border-color: rgba(0,0,0,0.1);">
+            <h3 class="uppercase font-bold text-xl mb-10 border-2 inline-block" style="border-color: rgba(0,0,0,0.1);">
+                <span class="py-1.5 px-4" >
                     <i class="fa-solid fa-check opacity-60"></i>
                     Lợi thế mô hình nhượng quyền trung nguyên e-coffee
                 </span>

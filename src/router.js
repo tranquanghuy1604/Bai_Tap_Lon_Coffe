@@ -4,6 +4,9 @@ import Recruit from "./views/recruit.vue";
 import Shopping from "./views/shopping.vue";
 import Tintuc from "./views/tintuc.vue";
 import Nhuongquyen from "./views/nhuong_quyen.vue";
+import CaPheDongGoi from "./views/ca_phe_dong_goi.vue";
+import SachQuy from "./views/sach_quy.vue";
+
 const routes = [
   {
     path: "/",
@@ -20,6 +23,14 @@ const routes = [
   {
     path: "/nhuongquyen",
     component: Nhuongquyen,
+  },
+  {
+    path: "/caPheDongGoi",
+    component: CaPheDongGoi,
+  },
+  {
+    path: "/sachQuy",
+    component: SachQuy,
   },
   {
     path: "/tintuc",

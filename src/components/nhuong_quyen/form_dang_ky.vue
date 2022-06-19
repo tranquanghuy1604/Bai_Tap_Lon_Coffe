@@ -1,8 +1,8 @@
 <template>        
     <section style="background-color: rgb(52, 52, 52);" class="py-10">
         <div class="max-w-[1080px] mx-auto text-center text-white">
-            <h2 class="uppercase font-bold text-2xl mb-10">
-                <span class="py-1.5 px-4 border-2" style="border-color: rgba(0,0,0,0.1);">
+            <h2 class="uppercase font-bold text-2xl mb-10 border-2 inline-block" style="border-color: rgba(0,0,0,0.1);">
+                <span class="py-1.5 px-4">
                     <i class="fa-solid fa-clock opacity-60"></i>
                     ĐĂNG KÝ TƯ VẤN HỢP TÁC KINH DOANH
                 </span>
