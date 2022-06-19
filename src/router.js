@@ -6,7 +6,7 @@ import Tintuc from "./views/tintuc.vue";
 import Nhuongquyen from "./views/nhuong_quyen.vue";
 import CaPheDongGoi from "./views/ca_phe_dong_goi.vue";
 import SachQuy from "./views/sach_quy.vue";
-import Cauchuyenthuonghieu from "./views/cauchuyenthuonghieu.vue";
+import Cauchuyenthuonghieu from "./views/CauChuyenThuongHieu.vue";
 const routes = [
   {
     path: "/",
