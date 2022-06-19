@@ -3,7 +3,7 @@
         <div class="max-w-[1080px] mx-auto">
         <!-- video -->
         <div>
-            <video src="./img/cau-chuyen-thuong-hieu.mp4" preload="auto" autoplay muted loop ></video>
+            <video src="src/assets/img/CauChuyenThuongHieu/cau-chuyen-thuong-hieu.mp4" preload="auto" autoplay muted loop ></video>
         </div>
         <!-- open paragraph -->
         <div class="mx-10 my-10 font-sans">
@@ -41,7 +41,7 @@
             <div class="col-start-3 col-span-1  bg-white mx-6 "> 
                 <div class="flex justify-center" >
                     <div class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3">
-                        <img src="./img/2020.png" alt="">
+                        <img src="/src/assets/img/CauChuyenThuongHieu/2020.png" alt="">
                     </div>    
                 </div>
                 <div class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"></div>
@@ -77,7 +77,7 @@
             <div class="col-span-1 bg-white mx-6 "> 
                 <div class="flex justify-center" >
                     <div class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3">
-                        <img src="./img/2019.png" alt="" class="">
+                        <img src="src/assets/img/CauChuyenThuongHieu/2019.png" alt="" class="">
                     </div>    
                 </div>
                 <div class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"></div>
@@ -89,7 +89,7 @@
             <div class="col-start-3 col-span-1 bg-white mx-6 "> 
                 <div class="flex justify-center" >
                     <div class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3">
-                        <img src="./img/2018.png" alt="">
+                        <img src="src/assets/img/CauChuyenThuongHieu/2018.png" alt="">
                     </div>    
                 </div>
                 <div class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"></div>
@@ -125,7 +125,7 @@
             <div class="col-span-1 bg-white mx-6 "> 
                 <div class="flex justify-center" >
                     <div class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3">
-                        <img src="./img/2017.png" alt="">
+                        <img src="src/assets/img/CauChuyenThuongHieu/2017.png" alt="">
                     </div>    
                 </div>
                 <div class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"></div>
@@ -141,19 +141,19 @@
         <!-- items -->
         <div class="grid lg:grid-cols-3 md:grid-cols-1 text-center justify-center gap-8 mx-20">
             <div class="col-span-3 lg:col-span-1">
-                <img src="/img/CauChuyenThuongHieu/hinh1.jpg" alt="" class="w-full h-60"/>
+                <img src="src/assets/img/CauChuyenThuongHieu/hinh1.jpg" alt="" class="w-full h-60"/>
                 <h2 class="font-bold">Hành Trình Từ Trái Tim Tri Thức Là Nguồn Tài Sản Quý Giá Nhất</h2>
                 <div class="bg-black w-10 h-px mx-auto my-3"></div>
                 <p class="hover:text-yellow-400">Ngày 16 – 17.8.2019, Hành trình Từ Trái Tim đã đến với TP.Đà Nẵng cùng [...]</p>
             </div>
             <div class="col-span-3 lg:col-span-1">
-                <img src="./img/hinh2.jpg" alt="" class="w-full h-60">
+                <img src="src/assets/img/CauChuyenThuongHieu/hinh2.jpg" alt="" class="w-full h-60">
                 <h2 class="font-bold">Hành Trình Đến Với Chiến Sĩ Hải Quân Và Bộ Đội Biên Phòng Tỉnh Quảng Ninh</h2>
                 <div class="bg-black w-10 h-px mx-auto my-3"></div>
                 <p class="hover:text-yellow-400">Chiều 16.6, ngay sau lễ xuất hành tại Trường Đại học Hàng Hải, “Hành trình [...]</p>
             </div>
             <div class="col-span-3 lg:col-span-1">
-                <img src="./img/hinh3.jpg" alt="" class="w-full h-60">
+                <img src="src/assets/img/CauChuyenThuongHieu/hinh3.jpg" alt="" class="w-full h-60">
                 <h2 class="font-bold">Trung Nguyên E-Coffee Một Mô Hình Khởi Nghiệp Đồng Hành Với Hành Trình Từ Trái Tim</h2>
                 <div class="bg-black w-10 h-px mx-auto my-3"></div>
                 <p class="hover:text-yellow-400">Tham gia Hành Trình Từ Trái Tim thông qua Tủ Sách Nền Tảng Đổi Đời [...]</p>
@@ -170,19 +170,19 @@
         <!-- items -->
         <div class="grid lg:grid-cols-3 md:grid-cols-1 mx-10 gap-8 text-center">
             <div class="col-span-3 lg:col-span-1">
-                <img src="./img/hinh4.jpg" alt="" class="w-full h-60" >
+                <img src="src/assets/img/CauChuyenThuongHieu/hinh4.jpg" alt="" class="w-full h-60" >
                 <h2 class="font-bold">Kỳ 49: Đại Văn Hào Johann Wolfgang Von Goethe – Cà Phê Là Thức Uống Tuyệt Vời Nhất!</h2>
                 <div class="bg-black w-10 h-px mx-auto my-3"></div>
                 <p class="hover:text-yellow-400">Người Nhật đã định hình Trà đạo thành đạo lý của dân tộc, [...]</p>
             </div>
             <div class="col-span-3 lg:col-span-1">
-                <img src="./img/hinh5.jpg" alt="" class="w-full h-60">
+                <img src="src/assets/img/CauChuyenThuongHieu/hinh5.jpg" alt="" class="w-full h-60">
                 <h2 class="font-bold">Kỳ 48: Ludwig Van Beethoven – Cà Phê Và Những Bản Giao Hưởng Khát Vọng Hạnh Phúc</h2>
                 <div class="bg-black w-10 h-px mx-auto my-3"></div>
                 <p class="hover:text-yellow-400">Người Nhật đã định hình Trà đạo thành đạo lý của dân tộc, một [...]</p>
             </div>
             <div class="col-span-3 lg:col-span-1">
-                <img src="./img/hinh6.jpg" alt="" class="w-full h-60">
+                <img src="src/assets/img/CauChuyenThuongHieu/hinh6.jpg" alt="" class="w-full h-60">
                 <h2 class="font-bold">Kỳ 47: Cà Phê Trong Tiến Trình Thăng Hoa Âm Nhạc Của Johann Sebastian Bach</h2>
                 <div class="bg-black w-10 h-px mx-auto my-3"></div>
                 <p class="hover:text-yellow-400">Người Nhật đã định hình Trà đạo thành đạo lý của dân tộc, một [...]</p>
@@ -192,23 +192,23 @@
             SÁCH QUÝ NỀN TẢNG ĐỔI ĐỜI</div>
         <div class="grid lg:grid-cols-5 md:grid-cols-2 gap-4 text-center">
             <div class="lg:grid-cols-1 md:col-span-1">
-                <img src="./img/sach1.png" alt="">
+                <img src="src/assets/img/CauChuyenThuongHieu/sach1.png" alt="">
                 <h2>Không Bao Giờ Là Thất Bại,<br> Tất Cả Là Thử Thách</h2>
             </div>
             <div class="lg:grid-cols-1 md:col-span-1">
-                <img src="./img/sach2.png" alt="">
+                <img src="src/assets/img/CauChuyenThuongHieu/sach2.png" alt="">
                 <h2>Khuyến Học</h2>
             </div>
             <div class="lg:grid-cols-1 md:col-span-1">
-                <img src="./img/sach3.png" alt="">
+                <img src="src/assets/img/CauChuyenThuongHieu/sach3.png" alt="">
                 <h2>Nghĩ Giàu Làm Giàu</h2>
             </div>
             <div class="lg:grid-cols-1 md:col-span-1">
-                <img src="./img/sach4.png" alt="">
+                <img src="src/assets/img/CauChuyenThuongHieu/sach4.png" alt="">
                 <h2>Đắc Nhân Tâm</h2>
             </div>
             <div class="lg:grid-cols-1 md:col-span-1">
-                <img src="./img/sach5.png" alt="">
+                <img src="src/assets/img/CauChuyenThuongHieu/sach5.png" alt="">
                 <h2>Quốc Gia Khởi Nghiệp</h2>
             </div>
         </div>
