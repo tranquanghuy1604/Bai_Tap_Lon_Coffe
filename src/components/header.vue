@@ -127,7 +127,7 @@
         <ul class="flex items-center justify-between ml-[20px]">
           <li class="item px-[10px] border-r-[1px] border-[#888888]">
             <a
-              href=""
+              href="/cauchuyenthuonghieu"
               class="hover:text-black text-white text-[14px] xl:text-[16px]"
               >Câu chuyện thương hiệu</a
             >
