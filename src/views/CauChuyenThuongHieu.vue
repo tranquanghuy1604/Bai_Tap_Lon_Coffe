@@ -141,7 +141,7 @@
         <!-- items -->
         <div class="grid lg:grid-cols-3 md:grid-cols-1 text-center justify-center gap-8 mx-20">
             <div class="col-span-3 lg:col-span-1">
-                <img src="./img/hinh1.jpg" alt="" class="w-full h-60"/>
+                <img src="/img/CauChuyenThuongHieu/hinh1.jpg" alt="" class="w-full h-60"/>
                 <h2 class="font-bold">Hành Trình Từ Trái Tim Tri Thức Là Nguồn Tài Sản Quý Giá Nhất</h2>
                 <div class="bg-black w-10 h-px mx-auto my-3"></div>
                 <p class="hover:text-yellow-400">Ngày 16 – 17.8.2019, Hành trình Từ Trái Tim đã đến với TP.Đà Nẵng cùng [...]</p>
