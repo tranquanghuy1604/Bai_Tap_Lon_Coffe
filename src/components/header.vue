@@ -60,37 +60,37 @@
             class="hidden list absolute bg-[#fff] shadow-lg min-w-[256px] z-[100]"
           >
             <li class="items p-[8px] hover:bg-[#ccc]">
-              <a href="">Cà phê chai hạt mộc</a>
+              <a href="/sachQuy">Cà phê chai hạt mộc</a>
             </li>
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Cà phê đóng gói</a>
+              <a href="/caPheDongGoi">Cà phê đóng gói</a>
             </li>
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Quà tặng cao cấp</a>
+              <a href="/sachQuy">Quà tặng cao cấp</a>
             </li>
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Vật phẩm bán lẻ</a>
+              <a href="/caPheDongGoi">Vật phẩm bán lẻ</a>
             </li>
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Sản phẩm sách quý</a>
+              <a href="/sachQuy">Sản phẩm sách quý</a>
             </li>
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Sản phẩm đối tác</a>
+              <a href="/caPheDongGoi">Sản phẩm đối tác</a>
             </li>
             <li
               class="subnav items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc] relative"
             >
-              <a class="flex justify-between items-center" href="">
+              <a class="flex justify-between items-center" href="/sachQuy">
                 Máy móc thiết bị
                 <i class="right-0 fa-solid fa-caret-right"></i>
               </a>
@@ -110,17 +110,17 @@
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Công cụ dụng cụ</a>
+              <a href="/caPheDongGoi">Công cụ dụng cụ</a>
             </li>
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Nguyên liệu pha chế</a>
+              <a href="/sachQuy">Nguyên liệu pha chế</a>
             </li>
             <li
               class="items p-[8px] hover:bg-[#ccc] border-t-[1px] border-solid border-[#ccc]"
             >
-              <a href="">Bao bì thương hiệu</a>
+              <a href="/caPheDongGoi">Bao bì thương hiệu</a>
             </li>
           </ul>
         </div>

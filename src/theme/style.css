@@ -101,3 +101,8 @@ select, textarea {
 textarea {
     min-height: 120px;
 }
+
+/* Product list */
+.product-box:hover .product-box_cart {
+    visibility: visible;
+}
