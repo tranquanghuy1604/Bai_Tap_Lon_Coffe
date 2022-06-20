@@ -74,12 +74,12 @@
 </template>
 
 <script>
-import { ref } from "vue";
-import { useRouter } from "vue-router";
+// import { ref } from "vue";
+// import { useRouter } from "vue-router";
 
-const router = useRouter();
-const email = "johndoe@mail.com";
-const password = "@#!@#asdf1231!_!@#";
+// const router = useRouter();
+// const email = "johndoe@mail.com";
+// const password = "@#!@#asdf1231!_!@#";
 
 // function login() {
 //   router.push("/dashboard");
@@ -90,11 +90,6 @@ export default {
     data() {
       return {
         
-      }
-    },
-    methods: {
-      login() {
-        router.push("/dashboard");
       }
     },
 }
