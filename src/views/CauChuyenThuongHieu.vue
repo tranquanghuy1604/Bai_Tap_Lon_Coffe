@@ -123,7 +123,7 @@
         </div>
       </div>
       <!-- logo -->
-      <div class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6 lg:h-full h-24">
+      <div class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6 lg:h-full">
         <div class="flex justify-center">
           <div
             class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3"
@@ -136,7 +136,7 @@
           </div>
         </div>
         <div
-          class="w-2/4 border-dashed border-gray-400 border-r-2 h-full lg:h-full"
+          class="w-2/4 border-dashed border-gray-400 border-r-2 h-2/3 lg:h-full"
         ></div>
       </div>
     </div>
@@ -315,27 +315,27 @@
     >
       SÁCH QUÝ NỀN TẢNG ĐỔI ĐỜI
     </div>
-    <div class="grid grid-cols-5 gap-4 text-center mb-8">
-      <div class="col-span-2 lg:col-span-1">
+    <div class="grid md:grid-cols-5 sm:grid-cols-3 mobile:grid-cols-2 gap-4 text-center mb-8">
+      <div class="col-span-2.5 lg:col-span-1">
         <img src="src/assets/img/CauChuyenThuongHieu/sach1.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
         <h2 class="mt-3 hover:text-yellow-400">
           Không Bao Giờ Là Thất Bại,<br />
           Tất Cả Là Thử Thách
         </h2>
       </div>
-      <div class="col-span-2 lg:col-span-1">
+      <div class="col-span-2.5 lg:col-span-1">
         <img src="src/assets/img/CauChuyenThuongHieu/sach2.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
         <h2 class="mt-3 hover:text-yellow-400">Khuyến Học</h2>
       </div>
-      <div class="col-span-2 lg:col-span-1">
+      <div class="col-span-2.5 lg:col-span-1">
         <img src="src/assets/img/CauChuyenThuongHieu/sach3.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
         <h2 class="mt-3 hover:text-yellow-400">Nghĩ Giàu Làm Giàu</h2>
       </div>
-      <div class="col-span-2 lg:col-span-1">
+      <div class="col-span-2.5 lg:col-span-1">
         <img src="src/assets/img/CauChuyenThuongHieu/sach4.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
         <h2 class="mt-3 hover:text-yellow-400">Đắc Nhân Tâm</h2>
       </div>
-      <div class="col-span-2 lg:col-span-1">
+      <div class="col-span-2.5 lg:col-span-1">
         <img src="src/assets/img/CauChuyenThuongHieu/sach5.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
         <h2 class="mt-3 hover:text-yellow-400">Quốc Gia Khởi Nghiệp</h2>
       </div>
