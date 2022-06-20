@@ -65,7 +65,7 @@
           </div>
         </div>
         <div
-          class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"
+          class="w-2/4 border-dashed border-gray-400 border-r-2 h-1/2 lg:h-full"
         ></div>
       </div>
       <!-- paragraph -->
@@ -97,7 +97,7 @@
       </div>
     </div>
     <!-- timeline left -->
-    <div class="grid grid-cols-5 grid-rows-2 lg:grid-rows-1 gap-1">
+    <div class="grid grid-cols-5 grid-rows-2 lg:grid-rows-1 gap-1 lg:my-0 my-8">
       <!-- paragraph -->
       <div class="col-span-5 lg:col-span-2 row-start-2 lg:row-start-1">
         <div
@@ -123,7 +123,7 @@
         </div>
       </div>
       <!-- logo -->
-      <div class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6">
+      <div class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6 lg:h-full h-24">
         <div class="flex justify-center">
           <div
             class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3"
@@ -136,12 +136,12 @@
           </div>
         </div>
         <div
-          class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"
+          class="w-2/4 border-dashed border-gray-400 border-r-2 h-full lg:h-full"
         ></div>
       </div>
     </div>
     <!-- timeline right -->
-    <div class="grid grid-cols-5 gap-1">
+    <div class="grid grid-cols-5 gap-1 lg:my-0 my-8">
       <!-- logo -->
       <div class="col-span-5 lg:col-start-3 lg:col-span-1 bg-white mx-6">
         <div class="flex justify-center">
@@ -152,7 +152,7 @@
           </div>
         </div>
         <div
-          class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"
+          class="w-2/4 border-dashed border-gray-400 border-r-2 h-1/2 lg:h-full"
         ></div>
       </div>
       <!-- paragraph -->
@@ -182,7 +182,7 @@
       </div>
     </div>
     <!-- timeline left -->
-    <div class="grid grid-cols-5 gap-1 grid-rows-2 lg:grid-rows-1">
+    <div class="grid grid-cols-5 gap-1 grid-rows-2 lg:grid-rows-1 lg:my-0 my-8">
       <!-- paragraph -->
       <div class="col-span-5 lg:col-span-2 row-start-2 lg:row-start-1">
         <div
@@ -206,7 +206,7 @@
         </div>
       </div>
       <!-- logo -->
-      <div class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6">
+      <div class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6 pb-6">
         <div class="flex justify-center">
           <div
             class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3"
@@ -215,7 +215,7 @@
           </div>
         </div>
         <div
-          class="w-2/4 border-dashed border-gray-400 border-r-2 h-full"
+          class="w-2/4 border-dashed border-gray-400 border-r-2 h-1/2 lg:h-full"
         ></div>
       </div>
     </div>
@@ -231,8 +231,8 @@
       class="grid lg:grid-cols-3 md:grid-cols-1 text-center justify-center gap-8 mx-20"
     >
       <div class="col-span-3 lg:col-span-1">
-        <img src="./img/hinh1.jpg" alt="" class="w-full h-60" />
-        <h2 class="font-bold">
+        <img src="src/assets/img/CauChuyenThuongHieu/hinh1.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="font-bold mt-4">
           Hành Trình Từ Trái Tim Tri Thức Là Nguồn Tài Sản Quý Giá Nhất
         </h2>
         <div class="bg-black w-10 h-px mx-auto my-3"></div>
@@ -242,8 +242,8 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="./img/hinh2.jpg" alt="" class="w-full h-60" />
-        <h2 class="font-bold">
+        <img src="src/assets/img/CauChuyenThuongHieu/hinh2.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="font-bold mt-4">
           Hành Trình Đến Với Chiến Sĩ Hải Quân Và Bộ Đội Biên Phòng Tỉnh Quảng
           Ninh
         </h2>
@@ -254,8 +254,8 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="./img/hinh3.jpg" alt="" class="w-full h-60" />
-        <h2 class="font-bold">
+        <img src="src/assets/img/CauChuyenThuongHieu/hinh3.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="font-bold mt-4">
           Trung Nguyên E-Coffee Một Mô Hình Khởi Nghiệp Đồng Hành Với Hành Trình
           Từ Trái Tim
         </h2>
@@ -277,8 +277,8 @@
     <!-- items -->
     <div class="grid lg:grid-cols-3 md:grid-cols-1 mx-10 gap-8 text-center">
       <div class="col-span-3 lg:col-span-1">
-        <img src="./img/hinh4.jpg" alt="" class="w-full h-60" />
-        <h2 class="font-bold">
+        <img src="src/assets/img/CauChuyenThuongHieu/hinh4.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="font-bold mt-4">
           Kỳ 49: Đại Văn Hào Johann Wolfgang Von Goethe – Cà Phê Là Thức Uống
           Tuyệt Vời Nhất!
         </h2>
@@ -288,8 +288,8 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="./img/hinh5.jpg" alt="" class="w-full h-60" />
-        <h2 class="font-bold">
+        <img src="src/assets/img/CauChuyenThuongHieu/hinh5.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="font-bold mt-4">
           Kỳ 48: Ludwig Van Beethoven – Cà Phê Và Những Bản Giao Hưởng Khát Vọng
           Hạnh Phúc
         </h2>
@@ -299,8 +299,8 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="./img/hinh6.jpg" alt="" class="w-full h-60" />
-        <h2 class="font-bold">
+        <img src="src/assets/img/CauChuyenThuongHieu/hinh6.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="font-bold mt-4">
           Kỳ 47: Cà Phê Trong Tiến Trình Thăng Hoa Âm Nhạc Của Johann Sebastian
           Bach
         </h2>
@@ -315,29 +315,29 @@
     >
       SÁCH QUÝ NỀN TẢNG ĐỔI ĐỜI
     </div>
-    <div class="grid lg:grid-cols-5 md:grid-cols-2 gap-4 text-center">
-      <div class="lg:grid-cols-1 md:col-span-1">
-        <img src="./img/sach1.png" alt="" />
-        <h2>
+    <div class="grid grid-cols-5 gap-4 text-center mb-8">
+      <div class="col-span-2 lg:col-span-1">
+        <img src="src/assets/img/CauChuyenThuongHieu/sach1.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="mt-3 hover:text-yellow-400">
           Không Bao Giờ Là Thất Bại,<br />
           Tất Cả Là Thử Thách
         </h2>
       </div>
-      <div class="lg:grid-cols-1 md:col-span-1">
-        <img src="./img/sach2.png" alt="" />
-        <h2>Khuyến Học</h2>
+      <div class="col-span-2 lg:col-span-1">
+        <img src="src/assets/img/CauChuyenThuongHieu/sach2.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="mt-3 hover:text-yellow-400">Khuyến Học</h2>
       </div>
-      <div class="lg:grid-cols-1 md:col-span-1">
-        <img src="./img/sach3.png" alt="" />
-        <h2>Nghĩ Giàu Làm Giàu</h2>
+      <div class="col-span-2 lg:col-span-1">
+        <img src="src/assets/img/CauChuyenThuongHieu/sach3.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="mt-3 hover:text-yellow-400">Nghĩ Giàu Làm Giàu</h2>
       </div>
-      <div class="lg:grid-cols-1 md:col-span-1">
-        <img src="./img/sach4.png" alt="" />
-        <h2>Đắc Nhân Tâm</h2>
+      <div class="col-span-2 lg:col-span-1">
+        <img src="src/assets/img/CauChuyenThuongHieu/sach4.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="mt-3 hover:text-yellow-400">Đắc Nhân Tâm</h2>
       </div>
-      <div class="lg:grid-cols-1 md:col-span-1">
-        <img src="./img/sach5.png" alt="" />
-        <h2>Quốc Gia Khởi Nghiệp</h2>
+      <div class="col-span-2 lg:col-span-1">
+        <img src="src/assets/img/CauChuyenThuongHieu/sach5.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <h2 class="mt-3 hover:text-yellow-400">Quốc Gia Khởi Nghiệp</h2>
       </div>
     </div>
   </div>
