@@ -1,30 +1,9 @@
 <template>
-    <Header />
     <div id="product-list" class="max-w-[1080px] mx-auto lg:mt-[45px] ">
 
-        <div class="grid lg:grid-cols-2 mobile:grid-cols-1 h-16">
-            <div class="flex items-center mobile:justify-center lg:justify-start">
-                <div class="text-lg">
-                    <a href="#" class="text-gray-500 hover:text-black">Trang chủ</a>
-                    <span>/</span>
-                    <span class="font-semibold">Cà Phê Đóng Gói</span>
-                </div>
-            </div>
-
-            <div class="flex items-center h-full lg:justify-around mobile:justify-center">
-                <div class="lg:grow">
-                    <p v-if="products.length > 40" class="inline-block">Hiển thị 1–40 của {{products.length}} kết quả</p>
-                    <p  class="lg:inline-block mobile:hidden">Hiển thị tất cả {{products.length}} kết quả</p>
-                </div>
-                <div class="lg:grow inline-block">
-                    <select @change="onChange" class="w-full grow inline-block border border-gray-200">
-                        <option value="menu_order" selected>Thứ tự mặc định</option>
-                        <option value="popularity">Thứ tự theo mức độ phổ biến</option>
-                        <option value="lowToHigh">Thứ tự theo giá: thấp đến cao</option>
-                        <option value="highToLow">Thứ tự theo giá: cao xuống thấp</option>
-                    </select>
-                </div>
-            </div>
+        <div class="justify-center box-content font-bold mt-10">
+            <h2 class="text-left text-lg pl-[5%] uppercase">Cà phê đóng gói</h2>
+            <div class="bg-[#999] w-full h-px mb-10"></div>
         </div>
 
         <div class="grid lg:grid-cols-4 md:grid-cols-3 mobile:grid-cols-2 gap-3 my-[16px]">
@@ -54,13 +33,9 @@
             </div>
         </div>  
     </div>
-    <Footer />
 </template>
 
-
 <script>
-    import Header from "../components/header.vue";
-    import Footer from "../components/footer.vue";
     const ca_phe_dong_goi_products = [
         {
             product_id: "0001",
@@ -307,29 +282,15 @@
             popularity:"45439",
         },
     ]
+
 export default {
     components: {
-        Header,
-        Footer
+
     },
     el: '#product-list',
     data() {
         return {
             products: ca_phe_dong_goi_products
-        }
-    },
-    methods: {
-        onChange(event) {
-            const sort = event.target.value
-            if (sort == 'lowToHigh') {
-                this.products.sort((a, b) => a.price - b.price)
-            } else if (sort == 'highToLow') {
-                    this.products.sort((a, b) => b.price - a.price)
-            } else if (sort == 'popularity') {
-                    this.products.sort((a, b) => a.popularity - b.popularity)
-            } else if (sort == 'menu_order') {
-                    this.products.sort((a, b) => a.product_id - b.product_id)
-            }
         }
     },
 }
