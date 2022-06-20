@@ -1,5 +1,5 @@
 <template>    
-    <section class="py-10">        
+    <section class="pb-10">        
         <div class="max-w-[1080px] mx-auto text-center">
             <h2 class="uppercase font-bold text-2xl mb-10 border-2 inline-block" style="border-color: rgba(0,0,0,0.1);">
                 <span class="py-1.5 px-4">

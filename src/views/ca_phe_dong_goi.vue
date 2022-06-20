@@ -387,25 +387,25 @@ export default {
         Header,
         Footer
     },
-        el: '#product-list',
-        data() {
-            return {
-                products: ca_phe_dong_goi_products
-            }
-        },
-        methods: {
-            onChange(event) {
-                const sort = event.target.value
-                if (sort == 'lowToHigh') {
-                    this.products.sort((a, b) => a.price - b.price)
-                } else if (sort == 'highToLow') {
+    el: '#product-list',
+    data() {
+        return {
+            products: ca_phe_dong_goi_products
+        }
+    },
+    methods: {
+        onChange(event) {
+            const sort = event.target.value
+            if (sort == 'lowToHigh') {
+                this.products.sort((a, b) => a.price - b.price)
+            } else if (sort == 'highToLow') {
                     this.products.sort((a, b) => b.price - a.price)
-                } else if (sort == 'popularity') {
+            } else if (sort == 'popularity') {
                     this.products.sort((a, b) => a.popularity - b.popularity)
-                } else if (sort == 'menu_order') {
+            } else if (sort == 'menu_order') {
                     this.products.sort((a, b) => a.product_id - b.product_id)
-                }
             }
+        }
     },
 }
 
