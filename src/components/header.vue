@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="login hover:underline underline-offset-8">
-        <a href="" class="hidden lg:block">
+        <a href="/login" class="hidden lg:block">
           <span class="text-[#666666D9] hover:text-black">
             Đăng nhập / Đăng ký</span
           >

@@ -11,7 +11,6 @@ const count = ref(0);
 </script>
 
 <template>
-  <Login />
   <Header />
   <Slider />
   <More />
