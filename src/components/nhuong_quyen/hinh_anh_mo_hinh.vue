@@ -1,4 +1,5 @@
-<template>
+<template>    
+    <div id="tabs">
     <section class="py-10">
         <div class="max-w-[1080px] mx-auto text-center">
             <h2 class="uppercase font-bold text-2xl mb-10 border-2 inline-block" style="border-color: rgba(0,0,0,0.1);">
@@ -9,23 +10,24 @@
             </h2>
 
             <ul class="flex justify-center mb-10 nhuongQuyen-tablinks">
-                <li class="mr-1.5 inline-block tablink-mohinh active" onclick="openTabGoi(event, 'tab_gOi-Thinh-Vuong', 'tablink-mohinh', 'tab-mohinh')">
+                <li class="mr-1.5 inline-block tablink-mohinh" v-on:click="activetab='1'" v-bind:class="[ activetab === '1' ? 'active' : '' ]">
                     <a class="text-gray-500 text-sm font-semibold cursor-pointer py-2.5 hover:text-black" >
                         Gói thịnh vượng
                     </a>
                 </li>
-                <li class="mr-2 inline-block mx-1.5 tablink-mohinh" onclick="openTabGoi(event, 'tab_gOi-Khoi-Nghiep', 'tablink-mohinh', 'tab-mohinh')">
+                <li class="mr-2 inline-block mx-1.5 tablink-mohinh" v-on:click="activetab='2'" v-bind:class="[ activetab === '2' ? 'active' : '' ]">
                     <a class="text-gray-500 text-sm font-semibold cursor-pointer py-2.5 hover:text-black" >
                         Gói khởi nghiệp
                     </a>
                 </li>
-                <li class="ml-1.5 inline-block tablink-mohinh" onclick="openTabGoi(event, 'tab_gOi-Ket-Noi', 'tablink-mohinh', 'tab-mohinh')">
+                <li class="ml-1.5 inline-block tablink-mohinh" v-on:click="activetab='3'" v-bind:class="[ activetab === '3' ? 'active' : '' ]">
                     <a class="text-gray-500 text-sm font-semibold cursor-pointer py-2.5 hover:text-black">
                         Gói kết nối
                     </a>
                 </li>
             </ul>
-            <div id="tab_gOi-Thinh-Vuong" class="nhuongQuyen-tab tab-mohinh active">
+
+            <div id="tab_gOi-Thinh-Vuong" v-if="activetab ==='1'"  class="nhuongQuyen-tab tab-mohinh active">
                 <div class="grid md:grid-cols-3 sm:grid-cols-1">
                     <div class="pb-8 px-4">
                         <div class="md:h-72 sm:h-96">
@@ -56,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div id="tab_gOi-Khoi-Nghiep" class="nhuongQuyen-tab tab-mohinh">
+            <div id="tab_gOi-Khoi-Nghiep" v-if="activetab ==='2'" class="nhuongQuyen-tab tab-mohinh active">
                 <div class="grid md:grid-cols-3 sm:grid-cols-1">
                     <div class="pb-8 px-4">
                         <div class="md:h-72 sm:h-96">
@@ -69,7 +71,7 @@
                     </div>
                     <div class="pb-8 px-4">
                         <div class="md:h-72 sm:h-96">
-                            <img src="https://trungnguyenecoffee.com/wp-content/uploads/2020/08/114A6-Tr%E1%BA%A7n-Huy-Li%E1%BB%87u-Gi%E1%BA%A3ng-V%C3%B5-Ba-%C4%90%C3%ACnh-H%C3%A0-N%E1%BB%99i-1-1067x800.jpgg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
+                            <img src="https://trungnguyenecoffee.com/wp-content/uploads/2020/08/114A6-Tr%E1%BA%A7n-Huy-Li%E1%BB%87u-Gi%E1%BA%A3ng-V%C3%B5-Ba-%C4%90%C3%ACnh-H%C3%A0-N%E1%BB%99i-1-1067x800.jpg" alt="Trung Nguyen Coffee" class="h-full md:w-auto sm:w-full">
                         </div>
                         <div class="text-center px-2 5 pt-2 5 pb-5">
                             <h4 class="uppercase font-bold">Trung Nguyen E-coffee</h4>
@@ -87,7 +89,7 @@
                     </div>
                 </div>
             </div>
-            <div id="tab_gOi-Ket-Noi" class="nhuongQuyen-tab tab-mohinh">
+            <div id="tab_gOi-Ket-Noi" v-if="activetab ==='3'" class="nhuongQuyen-tab tab-mohinh active">
                 <div class="grid md:grid-cols-3 sm:grid-cols-1">
                     <div class="pb-8 px-4">
                         <div class="md:h-72 sm:h-96">
@@ -120,9 +122,16 @@
             </div>
         </div>        
     </section>
+    </div>
 </template>
 <script>
 export default {
     name: 'hinhAnhMoHinh',
+    el: '#tabs',
+    data() {
+        return {
+            activetab: '1' 
+        } 
+    },
 }
 </script>
