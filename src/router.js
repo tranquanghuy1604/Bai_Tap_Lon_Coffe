@@ -9,6 +9,8 @@ import SachQuy from "./views/sach_quy.vue";
 import Cauchuyenthuonghieu from "./views/CauChuyenThuongHieu.vue";
 import KhuyenMai from "./views/khuyen_mai.vue";
 import SanPham from "./views/products_page.vue";
+import Admin from "./views/admin.vue";
+import Login from "./views/Login.vue";
 
 const routes = [
   {
@@ -50,6 +52,14 @@ const routes = [
   {
     path: "/cauchuyenthuonghieu",
     component: Cauchuyenthuonghieu,
+  },
+  {
+    path: "/dashboard",
+    component: Admin,
+  },
+  {
+    path: "/admin",
+    component: Login,
   },
 ];
 
