@@ -46,7 +46,10 @@
         <div class="flex items-center justify-between mt-4">
           <div>
             <label class="inline-flex items-center">
-              <input type="checkbox" class="text-indigo-600 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500" />
+              <input
+                type="checkbox"
+                class="text-indigo-600 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
+              />
               <span class="mx-2 text-sm text-gray-600">Remember me</span>
             </label>
           </div>
@@ -73,24 +76,16 @@
   </div>
 </template>
 
-<script>
-// import { ref } from "vue";
-// import { useRouter } from "vue-router";
+<script setup lang="ts">
+import { ref } from "vue";
+import { useRouter } from "vue-router";
 
-// const router = useRouter();
-// const email = "johndoe@mail.com";
-// const password = "@#!@#asdf1231!_!@#";
+const router = useRouter();
+const email = ref("quanghuy@gamil.com");
+const password = ref("12345678212@");
 
-// function login() {
-//   router.push("/dashboard");
-// }
-
-export default {
-    name: 'LoginForm',
-    data() {
-      return {
-        
-      }
-    },
+function login() {
+  console.log();
+  router.push("/dashboard");
 }
 </script>
