@@ -2,7 +2,11 @@
   <div class="flex items-center justify-center h-screen px-6 bg-gray-200">
     <div class="w-full max-w-sm p-6 bg-white rounded-md shadow-md">
       <div class="flex items-center justify-center">
-        <img class="h-14 w-14" src="https://trungnguyenecoffee.com/wp-content/uploads/2020/09/Logo-M%C3%A0u-Tr%E1%BA%B1ng-E-Coffee.png" alt="Logo">
+        <img
+          class="h-14 w-14"
+          src="https://trungnguyenecoffee.com/wp-content/uploads/2020/09/Logo-M%C3%A0u-Tr%E1%BA%B1ng-E-Coffee.png"
+          alt="Logo"
+        />
         <span class="text-2xl font-semibold text-gray-700"
           >E-Trung Nguyên coffee</span
         >
@@ -13,7 +17,7 @@
           <span class="text-sm text-gray-700">Email</span>
           <input
             type="email"
-            class="block w-full mt-1 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
+            class="block w-full mt-1 p-[2%] border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500 focus:outline-none"
             v-model="email"
           />
         </label>
@@ -22,7 +26,7 @@
           <span class="text-sm text-gray-700">Password</span>
           <input
             type="password"
-            class="block w-full mt-1 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
+            class="block w-full mt-1 p-[2%] border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500 focus:outline-none"
             v-model="password"
           />
         </label>
