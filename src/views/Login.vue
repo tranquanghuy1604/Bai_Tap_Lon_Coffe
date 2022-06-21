@@ -21,7 +21,9 @@
             fill="white"
           />
         </svg>
-        <span class="text-2xl font-semibold text-gray-700">V-Dashboard</span>
+        <span class="text-2xl font-semibold text-gray-700"
+          >E-Trung Nguyên coffee</span
+        >
       </div>
 
       <form class="mt-4" @submit.prevent="login">
@@ -86,6 +88,6 @@ const password = ref("12345678212@");
 
 function login() {
   console.log();
-  router.push("/dashboard");
+  router.push("/trangchu");
 }
 </script>

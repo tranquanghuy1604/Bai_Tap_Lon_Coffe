@@ -11,7 +11,11 @@ import KhuyenMai from "./views/khuyen_mai.vue";
 import SanPham from "./views/products_page.vue";
 import Admin from "./views/admin.vue";
 import Login from "./views/Login.vue";
-
+import Trangchu from "./components/admin/trangchu.vue";
+import Quanlynguoidung from "./components/admin/quanlynguoidung.vue";
+import Quanlytintuc from "./components/admin/quanlytintuc.vue";
+import Quanlysanpham from "./components/admin/quanlysanpham.vue";
+import Dangnhap from "./component/Login.vue";
 const routes = [
   {
     path: "/",
@@ -46,6 +50,10 @@ const routes = [
     component: SachQuy,
   },
   {
+    path: "/Dangnhap",
+    component: Dangnhap,
+  },
+  {
     path: "/tintuc",
     component: Tintuc,
   },
@@ -60,6 +68,26 @@ const routes = [
   {
     path: "/admin",
     component: Login,
+  },
+  {
+    name: "Trangchu",
+    path: "/trangchu",
+    component: Trangchu,
+  },
+  {
+    name: "Quanlynguoidung",
+    path: "/Quanlynguoidung",
+    component: Quanlynguoidung,
+  },
+  {
+    name: "Quanlytintuc",
+    path: "/Quanlytintuc",
+    component: Quanlytintuc,
+  },
+  {
+    name: "Quanlysanpham",
+    path: "/Quanlysanpham",
+    component: Quanlysanpham,
   },
 ];
 
