@@ -12,7 +12,7 @@
   >
     <div class="flex items-center justify-center mt-8">
       <div class="flex items-center">
-        <span class="mx-2 text-2xl font-semibold text-white">V-Dashboard</span>
+        <span class="mx-2 text-2xl font-semibold text-white">Trung Nguyên coffee</span>
       </div>
     </div>
     <nav class="mt-10">
@@ -22,7 +22,7 @@
         :class="[$route.name === 'Trangchu' ? activeClass : inactiveClass]"
         to="/trangchu"
       >
-        <span class="mx-4">Trang chủ</span>
+        <span class="mx-4"><i class="fa-solid fa-house"></i> Trang chủ</span>
       </a>
       <a
         href="/Quanlynguoidung"
@@ -32,7 +32,7 @@
         ]"
         to="/Quanlynguoidung"
       >
-        <span class="mx-4">Quản lý người dùng</span>
+        <span class="mx-4"><i class="fa-solid fa-users"></i> Quản lý người dùng</span>
       </a>
       <a
         href="/Quanlytintuc"
@@ -40,7 +40,7 @@
         :class="[$route.name === 'Quanlytintuc' ? activeClass : inactiveClass]"
         to="/Quanlytintuc"
       >
-        <span class="mx-4">Quản lý tin tức</span>
+        <span class="mx-4"><i class="fa-solid fa-newspaper"></i> Quản lý tin tức</span>
       </a>
       <a
         href="/Quanlysanpham"
@@ -48,26 +48,8 @@
         :class="[$route.name === 'Quanlysanpham' ? activeClass : inactiveClass]"
         to="Quanlysanpham"
       >
-        <span class="mx-4">Quản lý sản phẩm</span>
+        <span class="mx-4"><i class="fa-solid fa-box"></i> Quản lý sản phẩm</span>
       </a>
-      <!-- <a
-        href=""
-        class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4 border-gray-900 text-gray-500 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100"
-      >
-        <span class="mx-4">Cards</span>
-      </a>
-      <a
-        href=""
-        class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4 border-gray-900 text-gray-500 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100"
-      >
-        <span class="mx-4">Modal</span>
-      </a>
-      <a
-        href=""
-        class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4 border-gray-900 text-gray-500 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100"
-      >
-        <span class="mx-4">Blank</span>
-      </a> -->
     </nav>
   </div>
 </template>

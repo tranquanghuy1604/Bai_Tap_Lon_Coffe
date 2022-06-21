@@ -26,7 +26,7 @@
         >
           <img
             class="object-cover w-full h-full"
-            src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=296&amp;q=80"
+            src="https://trungthanh.net/wp-content/uploads/2020/04/dang-le-nguyen-vu-1.jpg"
             alt="Your avatar"
           />
         </button>
@@ -44,17 +44,12 @@
           <a
             href="#"
             class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white"
-            >Profile</a
-          >
-          <a
-            href="#"
-            class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white"
-            >Products</a
+            >Trang cá nhân</a
           >
           <a
             href="/admin"
             class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white"
-            >Log out</a
+            >Đăng xuất</a
           >
         </div>
       </div>
