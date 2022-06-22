@@ -10,7 +10,7 @@
       <!-- items -->
       <div class="flex mx-auto text-center justify-center">
         <div class="px-[5%] lg:px-0">
-          <img src="/src/assets/img/hinh2.jpg" alt="" class="w-full" />
+          <img src="../assets/img/hinh2.jpg" alt="" class="w-full" />
           <a href="">
             <h2 class="font-[600] text-[18px] mt-[5%]">
               CHÀO THÁNG 3 TƯƠI MỚI VỚI BỘ BA SỮA CHUA TRÁI CÂY TẠI TRUNG NGUYÊN
@@ -40,7 +40,7 @@
           <a href="" class="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh1.jpg"
+                src="../assets/img/hinh1.jpg"
                 alt=""
                 class="w-full lg:h-[194.39px] hover:scale-[1.2] ease-in duration-300"
               />
@@ -59,7 +59,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh2.jpg"
+                src="../assets/img/hinh2.jpg"
                 alt=""
                 class="w-full hover:scale-[1.2] ease-in duration-300"
               />
@@ -79,7 +79,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh3.jpg"
+                src="../assets/img/hinh3.jpg"
                 alt=""
                 class="w-full hover:scale-[1.2] ease-in duration-300"
               />
@@ -112,7 +112,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh4.jpg"
+                src="../assets/img/hinh4.jpg"
                 alt=""
                 class="w-full hover:scale-[1.2] ease-in duration-300"
               />
@@ -131,7 +131,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh5.jpg"
+                src="../assets/img/hinh5.jpg"
                 alt=""
                 class="w-full hover:scale-[1.2] ease-in duration-300"
               />
@@ -151,7 +151,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh6.jpg"
+                src="../assets/img/hinh6.jpg"
                 alt=""
                 class="w-full lg:h-[194.39px] hover:scale-[1.2] ease-in duration-300"
               />
@@ -184,7 +184,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh7.jpg"
+                src="../assets/img/hinh7.jpg"
                 alt=""
                 class="w-full lg:h-[276.48px] hover:scale-[1.2] ease-in duration-300"
               />
@@ -203,7 +203,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh8.jpg "
+                src="../assets/img/hinh8.jpg "
                 alt=""
                 class="w-full hover:scale-[1.2] ease-in duration-300"
               />
@@ -222,7 +222,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh9.jpg "
+                src="../assets/img/hinh9.jpg "
                 alt=""
                 class="w-full hover:scale-[1.2] ease-in duration-300"
               />
@@ -255,7 +255,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh10.png "
+                src="../assets/img/hinh10.png "
                 alt=""
                 class="w-full hover:scale-[1.2] ease-in duration-300"
               />
@@ -274,7 +274,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh11.jpg"
+                src="../assets/img/hinh11.jpg"
                 alt=""
                 class="w-full lg:h-[196.36px] hover:scale-[1.2] ease-in duration-300"
               />
@@ -293,7 +293,7 @@
           <a href="">
             <div class="overflow-hidden">
               <img
-                src="src/assets/img/hinh12.jpg "
+                src="../assets/img/hinh12.jpg "
                 alt=""
                 class="w-full lg:h-[196.36px] hover:scale-[1.2] ease-in duration-300"
               />

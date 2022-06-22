@@ -2,7 +2,7 @@
   <Header />
   <div class="w-full lg:mt-[45px]">
     <video
-      src="src/assets/img/CauChuyenThuongHieu/cau-chuyen-thuong-hieu.mp4"
+      src="../assets/img/CauChuyenThuongHieu/cau-chuyen-thuong-hieu.mp4"
       preload="auto"
       autoplay
       muted
@@ -61,7 +61,7 @@
           <div
             class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3"
           >
-            <img src="src/assets/img/CauChuyenThuongHieu/2020.png" alt="" />
+            <img src="../assets/img/CauChuyenThuongHieu/2020.png" alt="" />
           </div>
         </div>
         <div
@@ -123,13 +123,15 @@
         </div>
       </div>
       <!-- logo -->
-      <div class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6 lg:h-full">
+      <div
+        class="col-span-5 lg:col-span-1 lg:col-start-3 bg-white mx-6 lg:h-full"
+      >
         <div class="flex justify-center">
           <div
             class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3"
           >
             <img
-              src="src/assets/img/CauChuyenThuongHieu/2019.png"
+              src="../assets/img/CauChuyenThuongHieu/2019.png"
               alt=""
               class=""
             />
@@ -148,7 +150,7 @@
           <div
             class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3"
           >
-            <img src="src/assets/img/CauChuyenThuongHieu/2018.png" alt="" />
+            <img src="../assets/img/CauChuyenThuongHieu/2018.png" alt="" />
           </div>
         </div>
         <div
@@ -211,7 +213,7 @@
           <div
             class="box-border aspect-square block border-solid border-2 border-yellow-400 rounded-full hover:bg-yellow-400 p-3"
           >
-            <img src="src/assets/img/CauChuyenThuongHieu/2017.png" alt="" />
+            <img src="../assets/img/CauChuyenThuongHieu/2017.png" alt="" />
           </div>
         </div>
         <div
@@ -231,7 +233,11 @@
       class="grid lg:grid-cols-3 md:grid-cols-1 text-center justify-center gap-8 mx-20"
     >
       <div class="col-span-3 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/hinh1.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/hinh1.jpg"
+          alt=""
+          class="w-full h-60 hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="font-bold mt-4">
           Hành Trình Từ Trái Tim Tri Thức Là Nguồn Tài Sản Quý Giá Nhất
         </h2>
@@ -242,7 +248,11 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/hinh2.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/hinh2.jpg"
+          alt=""
+          class="w-full h-60 hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="font-bold mt-4">
           Hành Trình Đến Với Chiến Sĩ Hải Quân Và Bộ Đội Biên Phòng Tỉnh Quảng
           Ninh
@@ -254,7 +264,11 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/hinh3.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/hinh3.jpg"
+          alt=""
+          class="w-full h-60 hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="font-bold mt-4">
           Trung Nguyên E-Coffee Một Mô Hình Khởi Nghiệp Đồng Hành Với Hành Trình
           Từ Trái Tim
@@ -277,7 +291,11 @@
     <!-- items -->
     <div class="grid lg:grid-cols-3 md:grid-cols-1 mx-10 gap-8 text-center">
       <div class="col-span-3 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/hinh4.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/hinh4.jpg"
+          alt=""
+          class="w-full h-60 hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="font-bold mt-4">
           Kỳ 49: Đại Văn Hào Johann Wolfgang Von Goethe – Cà Phê Là Thức Uống
           Tuyệt Vời Nhất!
@@ -288,7 +306,11 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/hinh5.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/hinh5.jpg"
+          alt=""
+          class="w-full h-60 hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="font-bold mt-4">
           Kỳ 48: Ludwig Van Beethoven – Cà Phê Và Những Bản Giao Hưởng Khát Vọng
           Hạnh Phúc
@@ -299,7 +321,11 @@
         </p>
       </div>
       <div class="col-span-3 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/hinh6.jpg" alt="" class="w-full h-60 hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/hinh6.jpg"
+          alt=""
+          class="w-full h-60 hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="font-bold mt-4">
           Kỳ 47: Cà Phê Trong Tiến Trình Thăng Hoa Âm Nhạc Của Johann Sebastian
           Bach
@@ -315,28 +341,50 @@
     >
       SÁCH QUÝ NỀN TẢNG ĐỔI ĐỜI
     </div>
-    <div class="grid md:grid-cols-5 sm:grid-cols-3 mobile:grid-cols-2 gap-4 text-center mb-8">
+    <div
+      class="grid md:grid-cols-5 sm:grid-cols-3 mobile:grid-cols-2 gap-4 text-center mb-8"
+    >
       <div class="col-span-2.5 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/sach1.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/sach1.png"
+          alt=""
+          class="hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="mt-3 hover:text-yellow-400">
           Không Bao Giờ Là Thất Bại,<br />
           Tất Cả Là Thử Thách
         </h2>
       </div>
       <div class="col-span-2.5 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/sach2.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/sach2.png"
+          alt=""
+          class="hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="mt-3 hover:text-yellow-400">Khuyến Học</h2>
       </div>
       <div class="col-span-2.5 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/sach3.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/sach3.png"
+          alt=""
+          class="hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="mt-3 hover:text-yellow-400">Nghĩ Giàu Làm Giàu</h2>
       </div>
       <div class="col-span-2.5 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/sach4.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/sach4.png"
+          alt=""
+          class="hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="mt-3 hover:text-yellow-400">Đắc Nhân Tâm</h2>
       </div>
       <div class="col-span-2.5 lg:col-span-1">
-        <img src="src/assets/img/CauChuyenThuongHieu/sach5.png" alt="" class="hover:scale-[1.1] ease-in duration-300" />
+        <img
+          src="../assets/img/CauChuyenThuongHieu/sach5.png"
+          alt=""
+          class="hover:scale-[1.1] ease-in duration-300"
+        />
         <h2 class="mt-3 hover:text-yellow-400">Quốc Gia Khởi Nghiệp</h2>
       </div>
     </div>
