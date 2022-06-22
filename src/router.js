@@ -15,7 +15,7 @@ import Trangchu from "./components/admin/trangchu.vue";
 import Quanlynguoidung from "./components/admin/quanlynguoidung.vue";
 import Quanlytintuc from "./components/admin/quanlytintuc.vue";
 import Quanlysanpham from "./components/admin/quanlysanpham.vue";
-import Dangnhap from "./component/Login.vue";
+import Dangnhap from "./component/login.vue";
 const routes = [
   {
     path: "/",
