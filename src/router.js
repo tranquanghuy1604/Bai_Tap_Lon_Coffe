@@ -16,6 +16,8 @@ import Quanlynguoidung from "./components/admin/quanlynguoidung.vue";
 import Quanlytintuc from "./components/admin/quanlytintuc.vue";
 import Quanlysanpham from "./components/admin/quanlysanpham.vue";
 import Dangnhap from "./component/login.vue";
+import ThemNguoiDung from "./components/admin/user/addUser.vue";
+import SuaThongTinNguoiDung from "./components/admin/user/updateUser.vue";
 const routes = [
   {
     path: "/",
@@ -88,6 +90,16 @@ const routes = [
     name: "Quanlysanpham",
     path: "/Quanlysanpham",
     component: Quanlysanpham,
+  },
+  {
+    name: "Themnguoidung",
+    path: "/themnguoidung",
+    component: ThemNguoiDung,
+  },
+  {
+    name: "Suathongtinnguoidung",
+    path: "/suathongtinnguoidung",
+    component: SuaThongTinNguoiDung,
   },
 ];
 

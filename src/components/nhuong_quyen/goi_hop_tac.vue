@@ -28,7 +28,7 @@
                 <div class="md:flex sm:block">
                     <div class="md:w-1/2 sm:w-full text-center">
                         <p class="px-3.5 pb-8">
-                            <span class="text-3xl font-bold mb-2" >Giá trị gói</span> <br>
+                            <span class="text-3xl font-bold mb-2">Giá trị gói</span> <br>
                             <span class="text-2xl font-bold mb-2" style="line-height: 3rem;">Từ 175 triệu</span> <br>
                             <span class="text-lg">Thời gian hoàn thiện cửa hàng dự kiến: từ 20 – 30 ngày</span>
                         </p>

@@ -8,11 +8,16 @@
   </div>
   <div
     :class="isOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'"
-    class="fixed inset-y-0 left-0 z-30 w-64 overflow-y-auto transition duration-300 transform bg-gray-900 lg:translate-x-0 lg:static lg:inset-0"
+    class="relative overflow-x-hidden inset-y-0 left-0 z-30 w-64 overflow-y-auto transition duration-300 transform bg-gray-900 lg:translate-x-0 lg:static lg:inset-0"
   >
+    <!-- position: relative;
+    overflow-x: hide;
+    overflow-x: hidden; -->
     <div class="flex items-center justify-center mt-8">
       <div class="flex items-center">
-        <span class="mx-2 text-2xl font-semibold text-white">Trung Nguyên coffee</span>
+        <span class="mx-2 text-2xl font-semibold text-white"
+          >Trung Nguyên coffee</span
+        >
       </div>
     </div>
     <nav class="mt-10">
@@ -32,7 +37,9 @@
         ]"
         to="/Quanlynguoidung"
       >
-        <span class="mx-4"><i class="fa-solid fa-users"></i> Quản lý người dùng</span>
+        <span class="mx-4"
+          ><i class="fa-solid fa-users"></i> Quản lý người dùng</span
+        >
       </a>
       <a
         href="/Quanlytintuc"
@@ -40,7 +47,9 @@
         :class="[$route.name === 'Quanlytintuc' ? activeClass : inactiveClass]"
         to="/Quanlytintuc"
       >
-        <span class="mx-4"><i class="fa-solid fa-newspaper"></i> Quản lý tin tức</span>
+        <span class="mx-4"
+          ><i class="fa-solid fa-newspaper"></i> Quản lý tin tức</span
+        >
       </a>
       <a
         href="/Quanlysanpham"
@@ -48,8 +57,28 @@
         :class="[$route.name === 'Quanlysanpham' ? activeClass : inactiveClass]"
         to="Quanlysanpham"
       >
-        <span class="mx-4"><i class="fa-solid fa-box"></i> Quản lý sản phẩm</span>
+        <span class="mx-4"
+          ><i class="fa-solid fa-box"></i> Quản lý sản phẩm</span
+        >
       </a>
+      <!-- width: 100%;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 50px;
+    /* text-align: center; */
+    margin-left: 30px;
+    /* overflow: auto; */
+    /* overflow-x: hidden; -->
+      <div class="bottom-[0] absolute mb-[50px] ml-[30px] w-[100%]">
+        <a href="#" class="flex w-[100%] px-[10px] py-[10px]">
+          <img class="w-[10%]" src="src/assets/img/caidat.png" alt="setting" />
+          <p class="text-[#fff] ml-[10px]">Cài đặt</p>
+        </a>
+        <a href="/admin" class="flex w-[100%] px-[10px] py-[10px]">
+          <img class="w-[10%]" src="src/assets/img/out.png" alt="out" />
+          <p class="text-[#A65959] ml-[10px]">Đăng xuất</p>
+        </a>
+      </div>
     </nav>
   </div>
 </template>

@@ -1,6 +1,7 @@
 <template>
   <layout>
-    <div id="users_management" class="content">
+    <div class="px-[40px] mb-[30px]">
+      <h2 class="text-[28px] font-[700]">Quản lý người dùng</h2>
       <form action="" class="inline-block ml-1">
         <input
           type="search"
@@ -10,84 +11,79 @@
           placeholder="Tìm kiếm..."
         />
       </form>
-      <button
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
-      >
-        <i class="fa-solid fa-plus"></i>
-        Thêm Tài Khoản
-      </button>
-
-      <div class="">
-        <table class="border-collapse w-full">
-          <tr>
-            <th class="font-bold text-lg border text-left p-2">Hình ảnh</th>
-            <th class="font-bold text-lg border text-left p-2">
-              Tên Tài Khoản
-            </th>
-            <th class="font-bold text-lg border text-left p-2">Ngày sinh</th>
-            <th class="font-bold text-lg border text-left p-2">Email</th>
-            <th class="font-bold text-lg border text-left p-2">Địa chỉ</th>
-            <th class="font-bold text-lg border text-left p-2">Trạng thái</th>
-            <th class="font-bold text-lg border text-left p-2"></th>
-          </tr>
-          <tr
-            v-for="user in users"
-            :key="user.id"
-            class="hover:bg-gray-100 cursor-pointer"
-          >
-            <th class="font-medium text-sm border text-left p-2">
-              <img
-                class="h-[60px] w-[60px]"
-                :src="user.image"
-                alt=""
-                style="height: 60px; width: 60px"
-              />
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ user.user_name }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ user.birth }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ user.email }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ user.address }}
-            </th>
-            <th
-              v-if="user.status == 'Online'"
-              class="text-green-500 font-medium text-sm border text-left p-2"
-            >
-              {{ user.status }}
-            </th>
-            <th
-              v-else
-              class="text-red-500 font-medium text-sm border text-left p-2"
-            >
-              {{ user.status }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              <button class="p-2 text-yellow-500 hover:text-yellow-400">
-                <i class="fa-solid fa-pen-to-square"></i>
-              </button>
-              <button class="p-2 text-green-500 hover:text-green-400">
-                <i class="fa-solid fa-trash"></i>
-              </button>
-            </th>
-          </tr>
-        </table>
-        <div
-          class="text-center w-full h-9 overflow-hidden cursor-pointer"
-          style="
-            box-shadow: inset 0px -25px 25px -8px grey;
-            transition: height 0.5s ease-in;
-          "
+      <a href="/Themnguoidung">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 ml-[20px]"
         >
-          <p>
-            Xem thêm
-            <i class="fa-solid fa-angle-down"></i>
-          </p>
+          <i class="fa-solid fa-plus"></i>
+          Thêm Tài Khoản
+        </button>
+      </a>
+      <div class="border-2 border-[#000] px-[10px] py-[10px]">
+        <div>
+          <div
+            class="py-[30px] border-b-2 border-solid border-[#000] mt-[30px]"
+          >
+            <h2 class="text-[20px] font-[500]">DANH SÁCH NGƯỜI DÙNG</h2>
+          </div>
+        </div>
+        <div class="mt-[30px]">
+          <table class="border-collapse w-full">
+            <tr>
+              <th class="font-bold text-lg">Ảnh đại diện</th>
+              <th class="font-bold text-lg">Tên Tài Khoản</th>
+              <th class="font-bold text-lg">Ngày sinh</th>
+              <th class="font-bold text-lg">Email</th>
+              <th class="font-bold text-lg">Địa chỉ</th>
+              <th class="font-bold text-lg">Trạng thái</th>
+              <th class="font-bold text-lg"></th>
+            </tr>
+            <tr
+              v-for="user in users"
+              :key="user.id"
+              class="hover:bg-gray-100 cursor-pointer"
+            >
+              <th class="font-medium text-sm flex justify-center py-[20px]">
+                <img
+                  class="h-[60px] w-[60px] border-2 border-[#000]"
+                  :src="user.image"
+                  alt=""
+                  style="height: 60px; width: 60px"
+                />
+              </th>
+              <th class="font-medium text-sm">
+                {{ user.user_name }}
+              </th>
+              <th class="font-medium text-sm">
+                {{ user.birth }}
+              </th>
+              <th class="font-medium text-sm">
+                {{ user.email }}
+              </th>
+              <th class="font-medium text-sm">
+                {{ user.address }}
+              </th>
+              <th
+                v-if="user.status == 'Online'"
+                class="text-green-500 font-medium text-sm"
+              >
+                {{ user.status }}
+              </th>
+              <th v-else class="text-red-500 font-medium text-sm">
+                {{ user.status }}
+              </th>
+              <th class="font-medium text-sm">
+                <a href="/suathongtinnguoidung">
+                  <button class="p-2 text-yellow-500 hover:text-yellow-400">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </button>
+                </a>
+                <button class="p-2 text-green-500 hover:text-green-400">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </th>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
