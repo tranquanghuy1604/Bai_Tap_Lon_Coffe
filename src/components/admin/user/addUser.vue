@@ -1,6 +1,6 @@
 <template>
   <layout>
-    <div class="px-[40px]">
+    <div class="px-[40px] mb-[40px]">
       <div><h2 class="text-[28px] font-[700]">THÊM NGƯỜI DÙNG</h2></div>
       <div class="border-2 border-[#000] px-[20px] py-[20px] mt-[20px]">
         <div
@@ -97,7 +97,7 @@
                   class="bg-[#EAF0F9] mt-[10px] w-[100%] py-[5px] pl-[10px] rounded-[10px]"
                 />
               </div>
-              <div class="flex justify-center gap-[20px] mt-[50px]">
+              <div class="flex justify-end gap-[20px] mt-[50px]">
                 <a
                   href="/Quanlynguoidung"
                   class="py-[4px] px-[25px] bg-[#fff] border-2 border-[#000] text-[#000] rounded-md"

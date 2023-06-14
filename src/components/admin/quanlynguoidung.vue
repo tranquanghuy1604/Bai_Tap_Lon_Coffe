@@ -45,7 +45,7 @@
             >
               <th class="font-medium text-sm flex justify-center py-[20px]">
                 <img
-                  class="h-[60px] w-[60px] border-2 border-[#000]"
+                  class="h-[60px] w-[60px] border-2 border-[#000] object-container rounded-md"
                   :src="user.image"
                   alt=""
                   style="height: 60px; width: 60px"
@@ -78,7 +78,11 @@
                     <i class="fa-solid fa-pen-to-square"></i>
                   </button>
                 </a>
-                <button class="p-2 text-green-500 hover:text-green-400">
+                <button
+                  type="button"
+                  class="p-2 text-green-500 hover:text-green-400"
+                  @click="() => (show = true)"
+                >
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </th>
@@ -87,11 +91,31 @@
         </div>
       </div>
     </div>
+    <Dialog v-if="show" @close="closeModal" />
   </layout>
 </template>
 <script>
 import Layout from "../DashboardLayout.vue";
+import Dialog from "./user/deletepopup.vue";
 
+export default {
+  components: {
+    Layout,
+    Dialog,
+  },
+  el: "#users_management",
+  data() {
+    return {
+      users: users,
+      show: false,
+    };
+  },
+  methods: {
+    closeModal(isOpen) {
+      this.show = isOpen;
+    },
+  },
+};
 const users = [
   {
     user_id: "user01",
@@ -243,15 +267,4 @@ const users = [
     status: "Offine",
   },
 ];
-export default {
-  components: {
-    Layout,
-  },
-  el: "#users_management",
-  data() {
-    return {
-      users: users,
-    };
-  },
-};
 </script>
