@@ -18,6 +18,9 @@ import Quanlysanpham from "./components/admin/quanlysanpham.vue";
 import Dangnhap from "./component/login.vue";
 import ThemNguoiDung from "./components/admin/user/addUser.vue";
 import SuaThongTinNguoiDung from "./components/admin/user/updateUser.vue";
+import Themtintuc from "./components/admin/user/addNews.vue";
+import Suatintuc from "./components/admin/user/updateNews.vue";
+
 const routes = [
   {
     path: "/",
@@ -100,6 +103,16 @@ const routes = [
     name: "Suathongtinnguoidung",
     path: "/suathongtinnguoidung",
     component: SuaThongTinNguoiDung,
+  },
+  {
+    name: "Themtintuc",
+    path: "/themtintuc",
+    component: Themtintuc,
+  },
+  {
+    name: "updateNews",
+    path: "/suatintuc",
+    component: Suatintuc,
   },
 ];
 
