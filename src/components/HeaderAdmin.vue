@@ -4,19 +4,9 @@
   >
     <div class="flex items-center flex-1 w-[100%]">
       <button class="text-gray-500 focus:outline-none lg:hidden"></button>
-      <div class="relative mx-4 lg:mx-0 w-[100%]">
-        <span class="absolute inset-y-0 left-0 flex items-center pl-3">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </span>
-        <input
-          class="w-[100%] pl-10 pr-4 text-indigo-600 border-gray-200 rounded-md sm:w-64 focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
-          type="text"
-          placeholder="Search"
-        />
-      </div>
     </div>
     <div class="flex items-center">
-      <div class="px-[10px] py-[10px] bg-[#9A3012] rounded-md">NV</div>
+      <!-- <div class="px-[10px] py-[10px] bg-[#9A3012] rounded-md">NV</div> -->
       <button class="flex mx-4 text-gray-600 focus:outline-none">
         <i class="fa-solid fa-bell"></i>
       </button>
@@ -40,9 +30,16 @@
         ></div>
         <div
           v-show="dropdownOpen"
-          class="absolute right-0 z-20 w-48 py-2 mt-2 bg-white rounded-md shadow-xl"
+          class="absolute right-0 z-20 w-48 py-2 mt-2 bg-white rounded-lg shadow-xl"
           style="display: none"
         >
+          <a
+            href="#"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white cursor-pointer rounded-lg"
+          >
+            <p class="font-[600] text-[13px]">Trần Quang Huy</p>
+            <span class="text-[12px] text-[#ccc]">quanhuytran12@gmail.com</span>
+          </a>
           <a
             href="#"
             class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white"

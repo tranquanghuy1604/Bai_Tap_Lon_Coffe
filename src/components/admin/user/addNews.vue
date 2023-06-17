@@ -16,6 +16,21 @@
             alt="addAvatar"
             class="w-[7%] rounded-lg object-cover"
           />
+          <!-- <div class="">
+            <input
+              accept="image/*"
+              type="file"
+              @change="previewFiles($event)"
+            />
+            <img
+              alt=""
+              class="w-[7%] rounded-lg object-cover"
+              :src="
+                newImage ||
+                'https://www.namepros.com/attachments/empty-png.89209/'
+              "
+            />
+          </div> -->
           <div class="ml-[20px]">
             <button class="px-[15px] py-[4px] bg-[#B4CD93] rounded-md">
               Thêm
@@ -95,6 +110,20 @@ export default {
   name: "Themtintuc",
   components: {
     Layout,
+  },
+  data() {
+    newImage: "";
+  },
+  methods: {
+    previewFiles(event) {
+      const file = event.target.files[0];
+
+      const theReader = new FileReader();
+      theReader.onloadend = async () => {
+        this.newImage = await theReader.result;
+      };
+      theReader.readAsDataURL(file);
+    },
   },
 };
 </script>

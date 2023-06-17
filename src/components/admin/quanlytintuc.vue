@@ -1,6 +1,6 @@
 <template>
   <layout>
-    <div class="px-[30px] mb-[40px]">
+    <div class="px-[40px] mb-[40px]">
       <h2 class="text-[28px] font-[700]">Quản lý tin tức</h2>
       <form action="" class="inline-block ml-1">
         <input

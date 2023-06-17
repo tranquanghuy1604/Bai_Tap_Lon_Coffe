@@ -65,11 +65,11 @@
               </th>
               <th
                 v-if="user.status == 'Online'"
-                class="text-green-500 font-medium text-sm"
+                class="text-green-500 font-medium text-sm uppercase"
               >
                 {{ user.status }}
               </th>
-              <th v-else class="text-red-500 font-medium text-sm">
+              <th v-else class="text-red-500 font-medium text-sm uppercase">
                 {{ user.status }}
               </th>
               <th class="font-medium text-sm">
@@ -155,7 +155,7 @@ const users = [
     birth: "15/08/1995",
     email: "vunguyen@gmail.com",
     address: "Hà Nội",
-    status: "Offine",
+    status: "Offline",
   },
   {
     user_id: "user05",
@@ -165,7 +165,7 @@ const users = [
     birth: "04/05/1900",
     email: "VuNguyen1990@gmail.com",
     address: "Tp.Hồ Chí Minh",
-    status: "Offine",
+    status: "Offline",
   },
   {
     user_id: "user06",
@@ -175,7 +175,7 @@ const users = [
     birth: "15/08/1995",
     email: "lenguyen1508@gmail.com",
     address: "Hải Phòng",
-    status: "Offine",
+    status: "Offline",
   },
   {
     user_id: "user07",
@@ -195,7 +195,7 @@ const users = [
     birth: "04/05/1900",
     email: "LeDangVu1955@gmail.com",
     address: "Đà Nẵng",
-    status: "Offine",
+    status: "Offline",
   },
   {
     user_id: "user09",
@@ -205,7 +205,7 @@ const users = [
     birth: "15/06/1996",
     email: "vunguyen@gmail.com",
     address: "Cao Bằng",
-    status: "Offine",
+    status: "Offline",
   },
   {
     user_id: "user10",
@@ -244,7 +244,7 @@ const users = [
     birth: "04/05/1900",
     email: "vunguyen@gmail.com",
     address: "Quảng Ninh",
-    status: "Offine",
+    status: "Offline",
   },
   {
     user_id: "user14",
@@ -254,7 +254,7 @@ const users = [
     birth: "15/08/1995",
     email: "ledangVu15081995@gmail.com",
     address: "Hòa Bình",
-    status: "Offine",
+    status: "Offline",
   },
   {
     user_id: "user15",
@@ -264,7 +264,7 @@ const users = [
     birth: "25/04/1998",
     email: "danglevu2504@gmail.com",
     address: "Hà Nội",
-    status: "Offine",
+    status: "Offline",
   },
 ];
 </script>
