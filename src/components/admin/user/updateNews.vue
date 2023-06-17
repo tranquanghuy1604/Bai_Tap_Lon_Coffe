@@ -5,10 +5,10 @@
         <h2 class="text-[28px] font-[600]">QUẢN LÝ TIN TỨC</h2>
       </div>
       <div
-        class="border-2 border-solid border-[#000] px-[10px] py-[10px] rounded-lg"
+        class="border-2 border-solid border-[#000] px-[20px] pb-[20px] rounded-lg shadow-2xl"
       >
-        <div class="border-b-2 border-solid border-[#000] py-[10px]">
-          <h4 class="text-[18px] font-[500]">Sửa tin tức</h4>
+        <div class="border-b-2 border-solid border-[#000] py-[10px] mt-[10px]">
+          <h4 class="text-[24px] font-[500]">Sửa tin tức</h4>
         </div>
         <div class="mt-[20px] flex justify-start">
           <img
@@ -36,9 +36,9 @@
               Tiêu đề
             </p>
             <textarea
-              class="bg-[#EAF0F9] w-[30%] h-[70px] px-[10px] pt-[10px] rounded-md resize-none"
+              class="bg-[#EAF0F9] w-[30%] h-[70px] px-[10px] pt-[10px] rounded-md resize-none text-[#0A4B65] text-[15px]"
               type="text"
-              placeholder="Tin chuẩn chưa anh?"
+              value="Tin chuẩn chưa anh?"
             />
           </div>
           <div>
@@ -49,9 +49,9 @@
               Danh mục
             </p>
             <input
-              class="bg-[#EAF0F9] w-[30%] px-[10px] pt-[10px] rounded-md box-border focus:border-none"
+              class="bg-[#EAF0F9] w-[30%] px-[10px] py-[10px] rounded-md box-border focus:border-none text-[#0A4B65] text-[15px]"
               type="text"
-              placeholder="Nghệ thuật counter"
+              value="Nghệ thuật counter"
             />
           </div>
           <div class="w-[100%]">
@@ -62,9 +62,9 @@
               Nội dung
             </p>
             <textarea
-              class="bg-[#EAF0F9] w-full rounded-md h-[100px] resize-none px-[10px] pt-[10px]"
+              class="bg-[#EAF0F9] w-full rounded-md h-[100px] resize-none px-[10px] pt-[10px] text-[#0A4B65] text-[15px]"
               type="text"
-              placeholder="Rất nhiều bạn cứ nhai đi nhai lại cái câu là. Tin chuẩn chưa anh?, muốn biết Tin chuẩn chưa anh? thì hãy so sánh, hãy đọc các nguồn tin khác, hãy đọc báo. Nếu đọc được một tin mà vẫn còn cảm thấy rằng là. À, chưa tin nổi thì mình phải đi tìm kiếm các chỗ khác thay vì hỏi một câu cứ nhai đi nhai lại như một con bò là Tin (chuẩn chưa anh) rồi là vào cười haha xong rồi vào viết linh ta linh tinh ở trên đấy"
+              value="Rất nhiều bạn cứ nhai đi nhai lại cái câu là. Tin chuẩn chưa anh?, muốn biết Tin chuẩn chưa anh? thì hãy so sánh, hãy đọc các nguồn tin khác, hãy đọc báo. Nếu đọc được một tin mà vẫn còn cảm thấy rằng là. À, chưa tin nổi thì mình phải đi tìm kiếm các chỗ khác thay vì hỏi một câu cứ nhai đi nhai lại như một con bò là Tin (chuẩn chưa anh) rồi là vào cười haha xong rồi vào viết linh ta linh tinh ở trên đấy"
             />
           </div>
           <div class="flex justify-end mt-[20px]">

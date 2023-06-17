@@ -30,12 +30,12 @@
         ></div>
         <div
           v-show="dropdownOpen"
-          class="absolute right-0 z-20 w-48 py-2 mt-2 bg-white rounded-lg shadow-xl"
+          class="absolute right-0 z-20 w-48 py-2 mt-2 bg-white rounded-lg shadow-2xl"
           style="display: none"
         >
           <a
             href="#"
-            class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white cursor-pointer rounded-lg"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white cursor-pointer mt-[5px]"
           >
             <p class="font-[600] text-[13px]">Trần Quang Huy</p>
             <span class="text-[12px] text-[#ccc]">quanhuytran12@gmail.com</span>

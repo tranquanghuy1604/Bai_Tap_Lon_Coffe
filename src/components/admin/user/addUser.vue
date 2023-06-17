@@ -55,7 +55,7 @@
                 /> -->
                 <select
                   name="gender"
-                  class="bg-[#EAF0F9] mt-[10px] w-[100%] py-[5px] pl-[10px] rounded-[10px] cursor-point"
+                  class="bg-[#EAF0F9] mt-[10px] w-[100%] py-[5px] pl-[10px] rounded-[10px] cursor-pointer"
                 >
                   <option value="Nam">Nam</option>
                   <option value="Nữ">Nữ</option>

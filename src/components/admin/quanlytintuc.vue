@@ -20,7 +20,7 @@
         </button>
       </a>
       <div
-        class="border-2 border-[#000] py-[20px] px-[20px] border-solid rounded-xl"
+        class="border-2 border-[#000] py-[20px] px-[20px] border-solid rounded-xl shadow-2xl"
       >
         <div class="border-b-2 border-[#000] border-solid">
           <h2 class="text-[#000000] text-[24px] font-[500]">
@@ -295,6 +295,22 @@
               </button>
             </div>
           </div>
+        </div>
+        <div class="flex justify-center items-center mt-[20px]">
+          <p class="text-[#0A4B65] text-[14px]">Kết quả 1-10</p>
+          <button
+            class="ml-[10px] px-[8px] py-[1px] border-2 border-solid border-[#EFF0F4]"
+          >
+            <i class="fa-solid fa-caret-left"></i>
+          </button>
+          <span class="ml-[10px] cursor-pointer text-[12px]">1</span>
+          <span class="ml-[10px] cursor-pointer text-[#0A4B65] text-[12px]"
+            >2</span
+          >
+          <span class="ml-[10px] cursor-pointer">...</span>
+          <button class="ml-[10px] px-[8px] py-[1px]">
+            <i class="fa-solid fa-caret-right"></i>
+          </button>
         </div>
       </div>
     </div>

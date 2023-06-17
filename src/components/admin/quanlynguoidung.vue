@@ -19,11 +19,11 @@
           Thêm Tài Khoản
         </button>
       </a>
-      <div class="border-2 border-[#000] px-[10px] py-[10px]">
+      <div
+        class="border-2 border-[#000] px-[20px] py-[10px] rounded-lg shadow-2xl"
+      >
         <div>
-          <div
-            class="py-[30px] border-b-2 border-solid border-[#000] mt-[30px]"
-          >
+          <div class="py-[30px] border-b-2 border-solid border-[#000]">
             <h2 class="text-[20px] font-[500]">DANH SÁCH NGƯỜI DÙNG</h2>
           </div>
         </div>
@@ -45,19 +45,19 @@
             >
               <th class="font-medium text-sm flex justify-center py-[20px]">
                 <img
-                  class="h-[60px] w-[60px] border-2 border-[#000] object-container rounded-md"
+                  class="h-[60px] w-[60px] border-2 border-[#000] object-cover rounded-md"
                   :src="user.image"
                   alt=""
                   style="height: 60px; width: 60px"
                 />
               </th>
-              <th class="font-medium text-sm">
+              <th class="font-medium text-sm text-left pl-[50px]">
                 {{ user.user_name }}
               </th>
-              <th class="font-medium text-sm">
+              <th class="font-medium text-sm text-left pl-[10px]">
                 {{ user.birth }}
               </th>
-              <th class="font-medium text-sm">
+              <th class="font-medium text-sm text-left pl-[90px]">
                 {{ user.email }}
               </th>
               <th class="font-medium text-sm">
@@ -74,13 +74,15 @@
               </th>
               <th class="font-medium text-sm">
                 <a href="/suathongtinnguoidung">
-                  <button class="p-2 text-yellow-500 hover:text-yellow-400">
+                  <button
+                    class="px-2 pt-1 bg-[#D9D9D9] rounded-md hover:opacity-70"
+                  >
                     <i class="fa-solid fa-pen-to-square"></i>
                   </button>
                 </a>
                 <button
                   type="button"
-                  class="p-2 text-green-500 hover:text-green-400"
+                  class="ml-3 px-2 pt-1 bg-[#D9D9D9] rounded-md hover:opacity-50"
                   @click="() => (show = true)"
                 >
                   <i class="fa-solid fa-trash"></i>
@@ -88,6 +90,22 @@
               </th>
             </tr>
           </table>
+        </div>
+        <div class="flex justify-center items-center">
+          <p class="text-[#0A4B65] text-[14px]">Kết quả 1-10</p>
+          <button
+            class="ml-[10px] px-[8px] py-[1px] border-2 border-solid border-[#EFF0F4]"
+          >
+            <i class="fa-solid fa-caret-left"></i>
+          </button>
+          <span class="ml-[10px] cursor-pointer text-[12px]">1</span>
+          <span class="ml-[10px] cursor-pointer text-[#0A4B65] text-[12px]"
+            >2</span
+          >
+          <span class="ml-[10px] cursor-pointer">...</span>
+          <button class="ml-[10px] px-[8px] py-[1px]">
+            <i class="fa-solid fa-caret-right"></i>
+          </button>
         </div>
       </div>
     </div>
