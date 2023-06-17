@@ -1,85 +1,101 @@
 <template>
-  <layout>
-    <div id="products" class="content">
-      <form action="" class="inline-block ml-1">
-        <input
-          type="search"
-          name=""
-          id=""
-          class="h-10 p-2.5 my-2.5 w-80 border rounded-[5px] border-gray-500 outline-none"
-          placeholder="Tìm kiếm..."
-        />
-      </form>
-      <button
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
-      >
-        <i class="fa-solid fa-plus"></i>
-        Thêm sản phẩm
-      </button>
-
-      <div class="">
-        <table class="border-collapse w-full">
-          <tr>
-            <th class="font-bold text-lg border text-left p-2">Hình ảnh</th>
-            <th class="font-bold text-lg border text-left p-2">Sản phẩm</th>
-            <th class="font-bold text-lg border text-left p-2">Giá tiền</th>
-            <th class="font-bold text-lg border text-left p-2">Tồn kho</th>
-            <th class="font-bold text-lg border text-left p-2">Danh mục</th>
-            <th class="font-bold text-lg border text-left p-2"></th>
-          </tr>
-          <tr
-            v-for="product in products"
-            :key="product.id"
-            class="hover:bg-gray-100 cursor-pointer"
-          >
-            <th class="font-medium text-sm border text-left p-2">
-              <img
-                class="h-[60px] w-[60px]"
-                :src="product.image"
-                alt=""
-                style="height: 60px; width: 60px"
-              />
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ product.product_name }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ product.intro_price }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ product.quantity }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              {{ product.tag }}
-            </th>
-            <th class="font-medium text-sm border text-left p-2">
-              <button class="p-2 text-yellow-500 hover:text-yellow-400">
-                <i class="fa-solid fa-pen-to-square"></i>
-              </button>
-              <button class="p-2 text-green-500 hover:text-green-400">
-                <i class="fa-solid fa-trash"></i>
-              </button>
-            </th>
-          </tr>
-        </table>
-        <div
-          class="text-center w-full h-9 overflow-hidden cursor-pointer"
-          style="
-            box-shadow: inset 0px -25px 25px -8px grey;
-            transition: height 0.5s ease-in;
-          "
-        >
-          <p>
-            Xem thêm
-            <i class="fa-solid fa-angle-down"></i>
-          </p>
+    <layout>
+        <div class="px-[40px] mb-[30px]">
+            <h2 class="text-[28px] font-[700]">Danh sách sản phẩm</h2>
+            <form action="" class="inline-block ml-1">
+                <input
+                        type="search"
+                        name=""
+                        id=""
+                        class="h-10 p-2.5 my-2.5 w-80 border rounded-[5px] border-gray-500 outline-none"
+                        placeholder="Tìm kiếm..."
+                />
+            </form>
+            <a href="/Themnguoidung">
+                <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 ml-[20px]"
+                >
+                    <i class="fa-solid fa-plus"></i>
+                    Thêm Sản Phẩm
+                </button>
+            </a>
+            <div class="border-2 border-[#000] px-[10px] py-[10px]">
+                <div>
+                    <div
+                            class="py-[30px] border-b-2 border-solid border-[#000] mt-[30px]"
+                    >
+                        <h2 class="text-[20px] font-[500]">DANH SÁCH SẢN PHẨM</h2>
+                    </div>
+                </div>
+                <div class="mt-[30px]">
+                    <table class="border-collapse w-full">
+                        <tr>
+                            <th class="font-bold text-lg">Hình ảnh</th>
+                            <th class="font-bold text-lg">Tên sản phẩm</th>
+                            <th class="font-bold text-lg">Giá tiền</th>
+                            <th class="font-bold text-lg">Số lượng</th>
+                            <th class="font-bold text-lg">Danh mục</th>
+                            <th class="font-bold text-lg"></th>
+                        </tr>
+                        <tr
+                                v-for="product in products"
+                                :key="product.id"
+                                class="hover:bg-gray-100 cursor-pointer"
+                        >
+                            <th class="font-medium text-sm flex justify-center py-[20px]">
+                                <img
+                                        class="h-[60px] w-[60px] border-2 border-[#000] object-container rounded-md"
+                                        :src="product.image"
+                                        alt=""
+                                        style="height: 60px; width: 60px"
+                                />
+                            </th>
+                            <th class="font-medium text-sm">
+                                {{ product.product_name }}
+                            </th>
+                            <th class="font-medium text-sm">
+                                {{ product.intro_price }}
+                            </th>
+                            <th class="font-medium text-sm">
+                                {{ product.quantity }}
+                            </th>
+                            <th class="font-medium text-sm">
+                                {{ product.tag }}
+                            </th>
+<!--                            <th-->
+<!--                                    v-if="user.status == 'Online'"-->
+<!--                                    class="text-green-500 font-medium text-sm"-->
+<!--                            >-->
+<!--                                {{ user.status }}-->
+<!--                            </th>-->
+<!--                            <th v-else class="text-red-500 font-medium text-sm">-->
+<!--                                {{ user.status }}-->
+<!--                            </th>-->
+                            <th class="font-medium text-sm">
+                                <a href="/suathongtinnguoidung">
+                                    <button class="p-2 text-yellow-500 hover:text-yellow-400">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </button>
+                                </a>
+                                <button
+                                        type="button"
+                                        class="p-2 text-green-500 hover:text-green-400"
+                                        @click="() => (show = true)"
+                                >
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </layout>
+        <Dialog v-if="show" @close="closeModal" />
+    </layout>
 </template>
 <script>
 import Layout from "../DashboardLayout.vue";
+import Dialog from "./user/deletepopup.vue";
 
 const tu_sach_products = [
   {
@@ -340,6 +356,7 @@ const tu_sach_products = [
 ];
 export default {
   components: {
+      Dialog,
     Layout,
   },
   el: "#products",
