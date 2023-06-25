@@ -71,11 +71,15 @@
     /* overflow-x: hidden; -->
       <div class="bottom-[0] absolute mb-[50px] ml-[30px] w-[100%]">
         <a href="#" class="flex w-[100%] px-[10px] py-[10px]">
-          <img class="w-[10%]" src="src/assets/img/caidat.png" alt="setting" />
+          <img
+            class="w-[10%]"
+            src="src/assets/img/setting-2.png"
+            alt="setting"
+          />
           <p class="text-[#fff] ml-[10px]">Cài đặt</p>
         </a>
         <a href="/admin" class="flex w-[100%] px-[10px] py-[10px]">
-          <img class="w-[10%]" src="src/assets/img/out.png" alt="out" />
+          <img class="w-[10%]" src="src/assets/img/logout.png" alt="logout" />
           <p class="text-[#A65959] ml-[10px]">Đăng xuất</p>
         </a>
       </div>

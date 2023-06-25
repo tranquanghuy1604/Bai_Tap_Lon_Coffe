@@ -91,7 +91,7 @@
             </div>
             <div class="col-span-2 w-[100%]">
               <div class="">
-                <h3 class="text-[#000] font-[600]">Số điện thoại</h3>
+                <h3 class="text-[#000] font-[600]">Địa chỉ</h3>
                 <input
                   type="text"
                   class="bg-[#EAF0F9] mt-[10px] w-[100%] py-[5px] pl-[10px] rounded-[10px]"

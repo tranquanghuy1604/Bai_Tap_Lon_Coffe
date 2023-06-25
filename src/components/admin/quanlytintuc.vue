@@ -19,283 +19,68 @@
           Thêm tin tức
         </button>
       </a>
-      <div
-        class="border-2 border-[#000] py-[20px] px-[20px] border-solid rounded-xl shadow-2xl"
-      >
+      <div class="py-[20px] px-[20px]">
         <div class="border-b-2 border-[#000] border-solid">
-          <h2 class="text-[#000000] text-[24px] font-[500]">
+          <h2 class="text-[#000000] text-[24px] font-[500] pb-[10px]">
             Danh sách tin tức
           </h2>
         </div>
-        <div
-          class="grid lg:grid-cols-3 md:grid-cols-1 text-center justify-center gap-8 mt-[40px]"
-        >
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh1.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              CHÚC MỪNG SINH NHẬT BẠN – TRUNG NGUYÊN E-COFFEE ƯU ĐÃI 30%
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
+
+        <div class="mt-[30px]">
+          <table class="border-collapse w-full">
+            <tr>
+              <th class="font-bold text-lg">Hình ảnh</th>
+              <th class="font-bold text-lg">Tiêu đề</th>
+              <th class="font-bold text-lg">Lượt xem</th>
+              <th class="font-bold text-lg">Danh mục</th>
+              <th class="font-bold text-lg">Ngày đăng</th>
+              <th class="font-bold text-lg"></th>
+            </tr>
+            <tr
+              v-for="neww in news"
+              :key="neww.id"
+              class="hover:bg-gray-100 cursor-pointer"
             >
-              <a href="/suatintuc">
+              <th class="font-medium text-sm flex justify-center py-[20px]">
+                <img
+                  class="h-[60px] w-[60px] border-2 border-[#000] object-cover rounded-md"
+                  :src="neww.image"
+                  alt=""
+                  style="height: 60px; width: 60px"
+                />
+              </th>
+              <th class="font-medium text-sm text-left pl-[50px]">
+                {{ neww.title }}
+              </th>
+              <th class="font-medium text-sm text-center">
+                {{ neww.view }}
+              </th>
+              <th class="font-medium text-sm text-center">
+                {{ neww.category }}
+              </th>
+              <th class="font-medium text-sm">
+                {{ neww.dateSubmitted }}
+              </th>
+              <th class="font-medium text-sm">
+                <a href="/suatintuc">
+                  <button
+                    class="px-2 pt-1 bg-[#D9D9D9] rounded-md hover:opacity-70"
+                  >
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </button>
+                </a>
                 <button
                   type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
+                  class="ml-3 px-2 pt-1 bg-[#D9D9D9] rounded-md hover:opacity-50"
+                  @click="() => (show = true)"
                 >
-                  Sửa
+                  <i class="fa-solid fa-trash"></i>
                 </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh2.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              CHÀO THÁNG 3 TƯƠI MỚI VỚI BỘ BA SỮA CHUA TRÁI CÂY TẠI TRUNG NGUYÊN
-              E-COFFEE
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh3.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              THÊM BẠN THÊM VUI – NHẬN NGAY ƯU ĐÃI MUA 03 TẶNG 01​
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh4.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              CHỈ 65 TRIỆU ĐỒNG HỢP TÁC CÙNG THƯƠNG HIỆU TRUNG NGUYÊN
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh5.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              CÙNG HIỆN THỰC HOÁ KHÁT VỌNG KHỞI NGHIỆP KINH DOANH VỚI NGÀNH CÀ
-              PHÊ
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh6.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              KHỞI NGHIỆP THÀNH CÔNG – GIÀU CÓ BỀN VỮNG CÙNG TRUNG NGUYÊN
-              E-COFFEE
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh7.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              Cà Phê Chai Hạt Mộc Trung Nguyên E-Coffee
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh8.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              Sẻ Chia Năng Lượng Ngọt Ngào Với Pudding Legend Cà Phê Sữa Đá
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
-          <div class="col-span-3 lg:col-span-1 relative">
-            <img
-              src="../../assets/img/hinh9.jpg"
-              alt=""
-              class="cursor-pointer border-2 object-cover border-[#000] border-solid rounded-md w-full h-60"
-            />
-            <h2 class="font-bold mt-[20px] mb-[50px]">
-              Nạp Năng Lượng Sáng Tạo, Tươi Trẻ Với Cà Phê Trung Nguyên Legend
-              Passiona Khổ Qua
-            </h2>
-            <div
-              class="mb-[20px] absolute py-[30px] bottom-0 translate-y-[50px] translate-x-[58%]"
-            >
-              <a href="/suatintuc">
-                <button
-                  type="button"
-                  class="px-[20px] py-[5px] border-2 border-solid border-[#000] bg-[#B4CD93] text-lg text-white rounded-lg"
-                >
-                  Sửa
-                </button>
-              </a>
-              <button
-                type="button"
-                class="ml-[10px] px-[20px] py-[5px] border-2 border-solid border-[#000] bg-red-500 text-lg text-white rounded-lg"
-                @click="() => (show = true)"
-              >
-                Xóa
-              </button>
-            </div>
-          </div>
+              </th>
+            </tr>
+          </table>
         </div>
+
         <div class="flex justify-center items-center mt-[20px]">
           <p class="text-[#0A4B65] text-[14px]">Kết quả 1-10</p>
           <button
@@ -320,6 +105,109 @@
 <script>
 import Layout from "../DashboardLayout.vue";
 import Dialog from "../admin/user/deletepopup.vue";
+
+const list_new = [
+  {
+    id: "0100",
+    view: "10.000",
+    category: "giải trí",
+    title: "CHÚC MỪNG SINH NHẬT BẠN – TRUNG NGUYÊN E-COFFEE ƯU ĐÃI 30%",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh1.jpg",
+  },
+  {
+    id: "0201",
+    title: "CHÀO THÁNG 3 TƯƠI MỚI VỚI BỘ BA SỮA CHUA TRÁI CÂY TẠI TRUNG NGUYÊN",
+    view: "138.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh2.jpg",
+  },
+  {
+    id: "0202",
+    title: "THÊM BẠN THÊM VUI – NHẬN NGAY ƯU ĐÃI MUA 03 TẶNG 01​",
+    view: "169.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh3.jpg",
+  },
+  {
+    id: "0203",
+    title: "CHỈ 65 TRIỆU ĐỒNG HỢP TÁC CÙNG THƯƠNG HIỆU TRUNG NGUYÊN",
+    view: "109.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh4.jpg",
+  },
+  {
+    id: "0204",
+    title:
+      "CÙNG HIỆN THỰC HOÁ KHÁT VỌNG KHỞI NGHIỆP KINH DOANH VỚI NGÀNH CÀ PHÊ",
+    view: "209.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh5.jpg",
+  },
+  {
+    id: "0205",
+    title:
+      "KHỞI NGHIỆP THÀNH CÔNG – GIÀU CÓ BỀN VỮNG CÙNG TRUNG NGUYÊN E-COFFEE",
+    view: "209.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh6.jpg",
+  },
+  {
+    id: "0205",
+    title: " Cà Phê Chai Hạt Mộc Trung Nguyên E-Coffee",
+    view: "135.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh7.jpg",
+  },
+  {
+    id: "0205",
+    title: " Sẻ Chia Năng Lượng Ngọt Ngào Với Pudding Legend Cà Phê Sữa Đá",
+    view: "189.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh8.jpg",
+  },
+  {
+    id: "0001",
+    title:
+      "Nạp Năng Lượng Sáng Tạo, Tươi Trẻ Với Cà Phê Trung Nguyên Legend Passiona Khổ Qua",
+    view: "2.180.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh9.jpg",
+  },
+
+  {
+    id: "0002",
+    title: "Cà phê Drip 1 - Culi Robusta",
+    view: "179.500",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh10.png",
+  },
+  {
+    id: "0003",
+    title: "Cà Phê Espresso Buôn Ma Thuột",
+    view: "179.000",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh11.jpg",
+  },
+  {
+    id: "0004",
+    title: "Cà Phê Chế Phin 1",
+    view: "104.500",
+    category: "giải trí",
+    dateSubmitted: "12/05/2023",
+    image: "src/assets/img/hinh12.jpg",
+  },
+];
 export default {
   components: {
     Layout,
@@ -328,6 +216,7 @@ export default {
   data() {
     return {
       show: false,
+      news: list_new,
     };
   },
   methods: {

@@ -19,11 +19,9 @@
           Thêm Tài Khoản
         </button>
       </a>
-      <div
-        class="border-2 border-[#000] px-[20px] py-[10px] rounded-lg shadow-2xl"
-      >
-        <div>
-          <div class="py-[30px] border-b-2 border-solid border-[#000]">
+      <div class="px-[20px] py-[10px]">
+        <div class="mt-[20px]">
+          <div class="pb-[15px] border-b-2 border-solid border-[#000]">
             <h2 class="text-[20px] font-[500]">DANH SÁCH NGƯỜI DÙNG</h2>
           </div>
         </div>
@@ -169,7 +167,7 @@ const users = [
     user_id: "user04",
     user_name: "DangLeNguyeVu",
     image:
-      "https://image.thanhnien.vn/w660/Uploaded/2022/bqmvlcvo/2019_11_14/nguyenvu4ok_ndok.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Trung_Nguyen_chairman_Dang_Le_Nguyen.jpg",
     birth: "15/08/1995",
     email: "vunguyen@gmail.com",
     address: "Hà Nội",

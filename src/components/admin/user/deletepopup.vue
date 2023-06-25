@@ -3,7 +3,7 @@
     class="fixed flex justify-center items-center top-0 right-0 left-0 bottom-0 z-[1000] text-[#fff]"
   >
     <div
-      class="w-[32%] bg-white h-[25%] z-[999] border-2 border-[#000] rounded-xl animate-wave-handing"
+      class="w-[32%] bg-white h-[25%] z-[999] border-2 border-[#000] rounded-xl animate-move-in"
     >
       <div class="py-[10px]">
         <h3 class="text-center text-[#101840] text-[20px] font-[600]">
