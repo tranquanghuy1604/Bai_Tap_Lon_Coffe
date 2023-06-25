@@ -11,7 +11,7 @@
                         placeholder="Tìm kiếm..."
                 />
             </form>
-            <a href="/Themnguoidung">
+            <a href="/themsanpham">
                 <button
                         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 ml-[20px]"
                 >
@@ -31,7 +31,9 @@
                     <table class="border-collapse w-full">
                         <tr>
                             <th class="font-bold text-lg">Hình ảnh</th>
-                            <th class="font-bold text-lg">Tên sản phẩm</th>
+                            <th class="font-bold text-lg" style="    padding-left: 80px;
+                                text-align: left;">
+                                Tên sản phẩm</th>
                             <th class="font-bold text-lg">Giá tiền</th>
                             <th class="font-bold text-lg">Số lượng</th>
                             <th class="font-bold text-lg">Danh mục</th>
@@ -50,7 +52,9 @@
                                         style="height: 60px; width: 60px"
                                 />
                             </th>
-                            <th class="font-medium text-sm">
+                            <th class="font-medium text-sm" style="
+                                text-align: left;
+                                padding-left: 80px;">
                                 {{ product.product_name }}
                             </th>
                             <th class="font-medium text-sm">
@@ -72,7 +76,7 @@
 <!--                                {{ user.status }}-->
 <!--                            </th>-->
                             <th class="font-medium text-sm">
-                                <a href="/suathongtinnguoidung">
+                                <a href="/suathongtinsanpham">
                                     <button class="p-2 text-yellow-500 hover:text-yellow-400">
                                         <i class="fa-solid fa-pen-to-square"></i>
                                     </button>
@@ -87,6 +91,22 @@
                             </th>
                         </tr>
                     </table>
+                </div>
+                <div class="flex justify-center items-center">
+                    <p class="text-[#0A4B65] text-[14px]">Kết quả 1-10</p>
+                    <button
+                        class="ml-[10px] px-[8px] py-[1px] border-2 border-solid border-[#EFF0F4]"
+                    >
+                        <i class="fa-solid fa-caret-left"></i>
+                    </button>
+                    <span class="ml-[10px] cursor-pointer text-[12px]">1</span>
+                    <span class="ml-[10px] cursor-pointer text-[#0A4B65] text-[12px]"
+                    >2</span
+                    >
+                    <span class="ml-[10px] cursor-pointer">...</span>
+                    <button class="ml-[10px] px-[8px] py-[1px]">
+                        <i class="fa-solid fa-caret-right"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -210,149 +230,7 @@ const tu_sach_products = [
     popularity: "15460",
     tag: "Cà phê đóng gói",
   },
-  {
-    product_id: "0003",
-    product_name: "Cà Phê Espresso Buôn Ma Thuột",
-    intro_price: "179.000",
-    price: "179000",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/08/Buon-Ma-Thuot-1-300x300.png",
-    quantity: "3",
-    popularity: "25244",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0004",
-    product_name: "Cà Phê Chế Phin 1",
-    intro_price: "104.500",
-    price: "104500",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/07/CP-1-300x300.jpg",
-    quantity: "3",
-    popularity: "10346",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0005",
-    product_name: "Cà Phê Chế Phin 2",
-    intro_price: "120.000",
-    price: "120000",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/07/CP-2-300x300.jpg",
-    quantity: "3",
-    popularity: "30802",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0006",
-    product_name: "Cà Phê Chế Phin 3",
-    intro_price: "141.000",
-    price: "141000",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/07/CP-3-300x300.jpg",
-    quantity: "6",
-    popularity: "23652",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0007",
-    product_name: "Cà Phê Chế Phin 4",
-    intro_price: "167.000",
-    price: "167000",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/07/CP-4-300x300.jpg",
-    quantity: "3",
-    popularity: "63751",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0008",
-    product_name: "Cà Phê Chế Phin 5",
-    intro_price: "199.000",
-    price: "199000",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/07/CP-5-300x300.jpg",
-    quantity: "3",
-    popularity: "16846",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0009",
-    product_name: "Cà Phê Drip 2 – Robusta Arabica",
-    intro_price: "223.833",
-    price: "223833",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/08/Tem-Hat-2-Arabica-Robusta-3kg-300x300.jpg",
-    quantity: "3",
-    popularity: "13130",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0010",
-    product_name: "Cà Phê Drip 4 – Premium Culi",
-    intro_price: "286.524",
-    price: "286524",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/08/Tem-Hat-4-Culi-Thuong-Hang-3kg-300x300.jpg",
-    quantity: "3",
-    popularity: "24124",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0011",
-    product_name: "Cà Phê Drip 5 – Culi Arabica",
-    intro_price: "360.500",
-    price: "360500",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/08/Tem-Hat-5-Culi-Arabica-3kg-300x300.jpg",
-    quantity: "3",
-    popularity: "39613",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0012",
-    product_name: "Cà Phê Drip 8 – Legend",
-    intro_price: "806.833",
-    price: "806833",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2021/08/Tem-Hat-8-_-3kg-300x300.jpg",
-    quantity: "3",
-    popularity: "98464",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0013",
-    product_name: "Cà Phê G7 3in1 – Hộp 21 Gói",
-    intro_price: "60.000",
-    price: "60000",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2020/08/HinhRetail-18-300x300.jpg",
-    quantity: "3",
-    popularity: "37845",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0014",
-    product_name: "Cà Phê G7 3in1 – Bịch 50 Sachets",
-    intro_price: "135.500",
-    price: "135500",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2020/08/HinhRetail-15-300x300.jpg",
-    quantity: "3",
-    popularity: "27145",
-    tag: "Cà phê đóng gói",
-  },
-  {
-    product_id: "0015",
-    product_name: "Cà Phê G7 3in1 – Hộp 18 Sticks",
-    intro_price: "54.500",
-    price: "54500",
-    image:
-      "https://trungnguyenecoffee.com/wp-content/uploads/2020/08/G7-Hop-18st-1-300x300.jpg",
-    quantity: "3",
-    popularity: "51008",
-    tag: "Cà phê đóng gói",
-  },
+
 ];
 export default {
   components: {
@@ -363,7 +241,13 @@ export default {
   data() {
     return {
       products: tu_sach_products,
+        show: false,
     };
   },
+    methods: {
+        closeModal(isOpen) {
+            this.show = isOpen;
+        },
+    },
 };
 </script>
