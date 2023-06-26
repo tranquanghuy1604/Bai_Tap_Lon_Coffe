@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <form action="Quanlytintuc" class="mt-[20px]">
-                    <div class="grid grid-cols-4 mt-[20px] gap-x-[500px]">
+                    <div class="grid grid-cols-4 mt-[20px] gap-x-[350px]">
                         <div class="col-span-2 w-[100%]">
                             <div class="">
                                 <h3 class="text-[#000] font-[600]">Mã sản phẩm</h3>

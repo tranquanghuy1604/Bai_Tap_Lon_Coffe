@@ -77,13 +77,15 @@
 <!--                            </th>-->
                             <th class="font-medium text-sm">
                                 <a href="/suathongtinsanpham">
-                                    <button class="p-2 text-yellow-500 hover:text-yellow-400">
+                                    <button
+                                        class="px-2 pt-1 bg-[#D9D9D9] rounded-md hover:opacity-70"
+                                    >
                                         <i class="fa-solid fa-pen-to-square"></i>
                                     </button>
                                 </a>
                                 <button
                                         type="button"
-                                        class="p-2 text-green-500 hover:text-green-400"
+                                        class="ml-3 px-2 pt-1 bg-[#D9D9D9] rounded-md hover:opacity-50"
                                         @click="() => (show = true)"
                                 >
                                     <i class="fa-solid fa-trash"></i>

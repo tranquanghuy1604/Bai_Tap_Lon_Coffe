@@ -18,6 +18,8 @@ import Quanlysanpham from "./components/admin/quanlysanpham.vue";
 import Dangnhap from "./component/login.vue";
 import ThemNguoiDung from "./components/admin/user/addUser.vue";
 import SuaThongTinNguoiDung from "./components/admin/user/updateUser.vue";
+import updateProduct from "./components/admin/product/updateProduct.vue";
+import addProduct from "./components/admin/product/addProduct.vue";
 import Themtintuc from "./components/admin/user/addNews.vue";
 import Suatintuc from "./components/admin/user/updateNews.vue";
 
@@ -103,6 +105,16 @@ const routes = [
     name: "Suathongtinnguoidung",
     path: "/suathongtinnguoidung",
     component: SuaThongTinNguoiDung,
+  },
+  {
+    name: "Suathongtinsanpham",
+    path: "/suathongtinsanpham",
+    component: updateProduct,
+  },
+  {
+    name: "Themsanpham",
+    path: "/themsanpham",
+    component: addProduct,
   },
   {
     name: "Themtintuc",
